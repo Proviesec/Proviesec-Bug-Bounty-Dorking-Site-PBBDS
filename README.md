@@ -1,1 +1,1 @@
-# Provies Bug-Bounty-Dorking-Site (PBBD)
+# Provies Bug-Bounty-Dorking-Site (PBBDS)
