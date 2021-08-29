@@ -1,0 +1,11 @@
+[
+        {
+                "titel" : "Google Dorking", 
+                "url" : "http://www.google.com/"
+        }
+        ,
+        {
+                "titel" : "Github Dorking", 
+                "url" : "https://github.com/"
+        }
+]
