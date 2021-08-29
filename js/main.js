@@ -14,12 +14,13 @@ function loadJSON(callback) {
 }
 // import the array which acts as a data source for the list
 function makeList() {
+    var jsonlist;
     loadJSON(function(response) {
-      // Parse JSON string into object
-        var reconlist = JSON.parse(response);
+        // Parse JSON string into object
+        jsonlist = JSON.parse(response);
      });
     // Set up a loop that goes through the items in listItems one at a time
-    numberOfListItems = reconlist.length;
+    numberOfListItems = jsonlist.length;
 
     listContainer = document.getElementById('reconlist');
     // Make the list
@@ -30,7 +31,7 @@ function makeList() {
         // create an item for each one
         const listItem = document.createElement('li');
         // Add the item text
-        listItem.innerHTML = "<a href='"+reconlist[i]['url']+"'>"+reconlist[i]['title']+"</a>";
+        listItem.innerHTML = "<a href='"+jsonlist[i]['url']+"'>"+jsonlist[i]['title']+"</a>";
         // Add listItem to the listElement
         listElement.appendChild(listItem);
     }
