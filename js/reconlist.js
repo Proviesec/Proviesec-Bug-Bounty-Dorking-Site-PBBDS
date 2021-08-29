@@ -1,4 +1,4 @@
-export const let = [
+let reconlist = [
         'Google Dorking',
         'Github Dorking',
         'Cert Search',
