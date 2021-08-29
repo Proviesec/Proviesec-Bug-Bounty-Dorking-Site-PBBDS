@@ -5,16 +5,14 @@ function makeList() {
     // Make the list
     listElement = document.createElement('ul'),
     // Set up a loop that goes through the items in listItems one at a time
-    numberOfListItems = reconlist.length, 
-    listItem, 
-    i;
+    numberOfListItems = reconlist.length;
 
     document.getElementsById('reconlist').appendChild(listContainer);
     listContainer.appendChild(listElement);
   
-    for (i = 0; i < numberOfListItems; ++i) {
+    for (var i = 0; i < numberOfListItems; ++i) {
         // create an item for each one
-        listItem = document.createElement('li');
+        const listItem = document.createElement('li');
         // Add the item text
         listItem.innerHTML = "<a href=''>Somelink</a>"+" "+reconlist[i];
         // Add listItem to the listElement
