@@ -1,5 +1,4 @@
 // import the array which acts as a data source for the list
-import { reconlist } from './reconlist.js'
 function makeList() {
     // Make a container element for the list
     listContainer = document.createElement('div'),
