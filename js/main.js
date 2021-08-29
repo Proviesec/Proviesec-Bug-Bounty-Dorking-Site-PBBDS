@@ -12,13 +12,7 @@ function loadJSON(callback) {
     };
     xobj.send(null);  
 }
-// import the array which acts as a data source for the list
-function makeList() {
-    var jsonlist;
-    loadJSON(function(response) {
-        // Parse JSON string into object
-        jsonlist = JSON.parse(response);
-     });
+function createList(jsonlist) {
     // Set up a loop that goes through the items in listItems one at a time
     numberOfListItems = jsonlist.length;
 
@@ -35,4 +29,12 @@ function makeList() {
         // Add listItem to the listElement
         listElement.appendChild(listItem);
     }
+}
+// import the array which acts as a data source for the list
+function makeList() {
+    loadJSON(function(response) {
+        // Parse JSON string into object
+        jsonlist = JSON.parse(response);
+        createList(jsonlist);
+    });
 }
