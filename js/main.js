@@ -17,5 +17,3 @@ function makeList() {
         listElement.appendChild(listItem);
     }
 }
-
-makeList();
