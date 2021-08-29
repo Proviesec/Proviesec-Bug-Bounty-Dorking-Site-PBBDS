@@ -5,7 +5,9 @@ function makeList() {
     // Make the list
     listElement = document.createElement('ul'),
     // Set up a loop that goes through the items in listItems one at a time
-    numberOfListItems = reconlist.length, listItem, i;
+    numberOfListItems = reconlist.length, 
+    listItem, 
+    i;
 
     document.getElementsById('reconlist').appendChild(listContainer);
     listContainer.appendChild(listElement);
