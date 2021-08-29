@@ -1,11 +1,11 @@
 [
         {
-                "titel" : "Google Dorking", 
+                "title" : "Google Dorking", 
                 "url" : "http://www.google.com/"
         }
         ,
         {
-                "titel" : "Github Dorking", 
+                "title" : "Github Dorking", 
                 "url" : "https://github.com/"
         }
 ]
