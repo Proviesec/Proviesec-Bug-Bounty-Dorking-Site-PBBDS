@@ -12,7 +12,7 @@ function makeList() {
         // create an item for each one
         const listItem = document.createElement('li');
         // Add the item text
-        listItem.innerHTML = "<a href=''>Somelink</a>"+" "+reconlist[i];
+        listItem.innerHTML = "<a href='"+reconlist[i]['link']+"'>"+reconlist[i]['title']+"</a>";
         // Add listItem to the listElement
         listElement.appendChild(listItem);
     }
