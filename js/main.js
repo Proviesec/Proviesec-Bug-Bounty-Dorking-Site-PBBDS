@@ -20,12 +20,14 @@ function createList(jsonlist) {
     // Make the list
     listElement = document.createElement('ul');
     listContainer.appendChild(listElement);
+	var domain = "urlaub.check24.de";
   
     for (var i = 0; i < numberOfListItems; ++i) {
         // create an item for each one
         const listItem = document.createElement('li');
         // Add the item text
-        listItem.innerHTML = "<a href='"+jsonlist[i]['url']+"'>"+jsonlist[i]['title']+"</a>";
+				
+        listItem.innerHTML = "<a href='"+jsonlist[i]['url'].replaceAll("xxPBBDSxx", domain)+"'  target=\"_blank\">"+jsonlist[i]['title']+"</a>";
         // Add listItem to the listElement
         listElement.appendChild(listItem);
     }

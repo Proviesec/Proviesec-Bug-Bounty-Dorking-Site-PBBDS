@@ -4,8 +4,34 @@
                 "url" : "http://www.google.com/"
         }
         ,
+		 {
+                "title" : "Google intitle:index.of", 
+                "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:index.of"
+        }
+		 ,
+		 {
+                "title" : "Google phpinfo()", 
+                "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:phpinfo%20\"published by the PHP Group\""
+        } 
+		,
+        {
+                "title" : "Subdomain Finder subdomainfinder subdomainfinder.c99.nl", 
+                "url" : "https://subdomainfinder.c99.nl/search.php?domain=xxPBBDSxx"
+        }
+		,
+        {
+                "title" : "Certificate Check crt.sh", 
+                "url" : "https://crt.sh/?q=xxPBBDSxx"
+        }
+		
+        ,
         {
                 "title" : "Github Dorking", 
                 "url" : "https://github.com/"
+        }
+		,
+        {
+                "title" : "Broken Link Check", 
+                "url" : "https://www.brokenlinkcheck.com/broken-links.php#status"
         }
 ]
