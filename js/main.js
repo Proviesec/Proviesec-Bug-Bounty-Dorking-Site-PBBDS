@@ -45,4 +45,5 @@ function replacePlaceholder(listid) {
 	var x = document.getElementById(listid).href;
 	var domain = document.getElementById('domain').value;
 	window.open(x.replaceAll("xxPBBDSxx", domain), '_blank');
+	
 }
