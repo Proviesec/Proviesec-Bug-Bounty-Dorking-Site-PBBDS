@@ -1,37 +1,60 @@
 [
         {
                 "title" : "Google Dorking", 
+				"category" : "Google Dorking",
                 "url" : "http://www.google.com/"
         }
         ,
 		 {
                 "title" : "Google intitle:index.of", 
+				"category" : "Google Dorking",
                 "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:index.of"
         }
 		 ,
 		 {
                 "title" : "Google phpinfo()", 
+				"category" : "Google Dorking",
                 "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:phpinfo%20\"published by the PHP Group\""
         } 
 		,
         {
                 "title" : "Subdomain Finder subdomainfinder subdomainfinder.c99.nl", 
+				"category" : "Subdomain",
                 "url" : "https://subdomainfinder.c99.nl/search.php?domain=xxPBBDSxx"
         }
 		,
         {
+                "title" : "Shodan.io", 
+				"category" : "Server",
+                "url" : "https://www.shodan.io/search?query=xxPBBDSxx"
+        },
+        {
+                "title" : "Fofa Application Check", 
+				"category" : "Server",
+                "url" : "https://fofa.so/result?q=xxPBBDSxx"
+        }
+		,
+        {
                 "title" : "Certificate Check crt.sh", 
+				"category" : "Server",
                 "url" : "https://crt.sh/?q=xxPBBDSxx"
         }
-		
         ,
         {
                 "title" : "Github Dorking", 
-                "url" : "https://github.com/"
+				"category" : "Github Dorking",
+                "url" : "https://github.com/q=xxPBBDSxx&type=code"
+        }
+		,
+        {
+                "title" : "Wayback Machine Link Check", 
+				"category" : "Link Check",
+                "url" : "https://web.archive.org/web/*/https://xxPBBDSxx/*"
         }
 		,
         {
                 "title" : "Broken Link Check", 
+				"category" : "Link Check",
                 "url" : "https://www.brokenlinkcheck.com/broken-links.php#status"
-        }
+        }		
 ]
