@@ -27,7 +27,7 @@ function createList(jsonlist) {
         const listItem = document.createElement('li');
         // Add the item text
 				
-        listItem.innerHTML = "<a href='"+jsonlist[i]['url']+"' onclick=\"replacePlaceholder('listitem"+i+"'); return false;\"  id=\"listitem"+i+"\" target=\"_blank\">"+jsonlist[i]['title']+"</a>";
+        listItem.innerHTML = "<a class='after' href='"+jsonlist[i]['url']+"' onclick=\"replacePlaceholder('listitem"+i+"'); return false;\"  id=\"listitem"+i+"\" target=\"_blank\">"+jsonlist[i]['title']+"</a>";
         // Add listItem to the listElement
         listElement.appendChild(listItem);
     }
