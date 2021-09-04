@@ -1,9 +1,12 @@
 # Provies Bug-Bounty-Dorking-Site (PBBDS)
+For your Bug Bounty Recon (Mobile First :) ) 
 
 :star: Star us on GitHub — it motivates a lot!
 
     - [x] Dynamic json file for li list
-    - [ ] Input read for Domain
+    - [x] Input read for Domain
+    - [ ] Select multi "or" for Google Dorking
+    - [ ] Select multi "or" for Github Dorking
     - [ ] Add tabs / categories 
     
 <br />
