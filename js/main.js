@@ -21,16 +21,36 @@ function createList(jsonlist) {
     listElement = document.createElement('ul');
     listContainer.appendChild(listElement);
 
+	menuList = [];
   
     for (var i = 0; i < numberOfListItems; ++i) {
         // create an item for each one
         const listItem = document.createElement('li');
         // Add the item text
-				
         listItem.innerHTML = "<a class='after' href='"+jsonlist[i]['url']+"' onclick=\"replacePlaceholder('listitem"+i+"'); return false;\"  id=\"listitem"+i+"\" target=\"_blank\">"+jsonlist[i]['title']+"</a>";
         // Add listItem to the listElement
-        listElement.appendChild(listItem);
+        listElement.appendChild(listItem);	
+		if(menuList.indexOf(jsonlist[i]['category']) === -1) {
+			menuList.push(jsonlist[i]['category']);
+		}
     }
+	createMenu(menuList);
+	
+}
+function createMenu(menuList) {
+	menuContainer = document.getElementById('menuCategoryList');
+    // Make the menu
+    menuElement = document.createElement('ul');
+    menuContainer.appendChild(menuElement);
+
+	menuList.forEach(function (item) {
+		// create an item for each one
+        const listItem = document.createElement('li');
+        // Add the item text
+        listItem.innerHTML = "<a href='#' id=\"menuitem"+item+"\" target=\"_blank\">"+item+"</a>";
+        // Add listItem to the menuElement
+        menuElement.appendChild(listItem);
+	});
 }
 // import the array which acts as a data source for the list
 function makeList() {
