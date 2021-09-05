@@ -23,6 +23,12 @@
                 "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20ext:xml%20|%20ext:conf%20|%20ext:cnf%20|%20ext:reg%20|%20ext:inf%20|%20ext:rdp%20|%20ext:cfg%20|%20ext:txt%20|%20ext:ora%20|%20ext:ini"
         } 
 		,
+		 {
+                "title" : "Google Dorking Redirects", 
+				"category" : "Google Dorking",
+                "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20inurl:redir%20|%20inurl:url%20|%20inurl:redirect%20|%20inurl:redirect%20|%20inurl:return%20|%20inurl:src=http%20|%20inurl:r=http"
+        } 
+		,
         {
                 "title" : "Subdomain Finder subdomainfinder subdomainfinder.c99.nl", 
 				"category" : "Subdomain",
