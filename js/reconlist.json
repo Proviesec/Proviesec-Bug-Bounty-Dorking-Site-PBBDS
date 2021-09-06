@@ -42,6 +42,12 @@
         }
 		,
         {
+                "title" : "MXTool (CName)", 
+				"category" : "Lookup",
+                "url" : "https://mxtoolbox.com/SuperTool.aspx?action=cname%3axxPBBDSxx&run=toolpage"
+        }
+		,
+        {
                 "title" : "Shodan.io", 
 				"category" : "Server",
                 "url" : "https://www.shodan.io/search?query=xxPBBDSxx"
