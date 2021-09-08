@@ -1,90 +1,126 @@
 [
-        {
-                "title" : "Google Dorking", 
-				"category" : "Google Dorking",
-                "url" : "http://www.google.com/"
-        }
-        ,
 		 {
-                "title" : "Google Dorking intitle:index.of", 
+                "title" : "Google Dorking - intitle:index.of", 
 				"category" : "Google Dorking",
+				"startsite": 1,
                 "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:index.of"
         }
-		 ,
+		,
 		 {
-                "title" : "Google Dorking phpinfo()", 
+                "title" : "Google Dorking - phpinfo()", 
 				"category" : "Google Dorking",
+				"startsite": 0,
                 "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:phpinfo%20\"published by the PHP Group\""
         } 
 		,
 		 {
-                "title" : "Google Dorking Files", 
+                "title" : "Google Dorking - Files", 
 				"category" : "Google Dorking",
+				"startsite": 1,
                 "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20ext:xml%20|%20ext:conf%20|%20ext:cnf%20|%20ext:reg%20|%20ext:inf%20|%20ext:rdp%20|%20ext:cfg%20|%20ext:txt%20|%20ext:ora%20|%20ext:ini"
         } 
 		,
 		 {
-                "title" : "Google Dorking Redirects", 
+                "title" : "Google Dorking - Login / Register", 
 				"category" : "Google Dorking",
+				"startsite": 1,
+                "url" : "https://www.google.com/search?q=site%3AxxPBBDSxx++intitle%3Alogin+%7C+inurl%3Alogin+%7C+intitle%3Aregister+%7C+inurl%3Aregister"
+        } 
+		,
+		 {
+                "title" : "Google Dorking - Redirects", 
+				"category" : "Google Dorking",
+				"startsite": 1,
                 "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20inurl:redir%20|%20inurl:url%20|%20inurl:redirect%20|%20inurl:redirect%20|%20inurl:return%20|%20inurl:src=http%20|%20inurl:r=http"
         } 
 		,
 		 {
-                "title" : "Google Dorking Log - Username", 
+                "title" : "Google Dorking - Log Username", 
 				"category" : "Google Dorking",
+				"startsite": 1,
                 "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20allintext:username%20filetype:log"
         } 
+		,
+		 {
+                "title" : "Google Dorking - Find Wordpress", 
+				"category" : "Google Dorking",
+				"startsite": 0,
+                "url" : "https://www.google.com/search?q=site:xxPBBDSxx+inurl:wp-+|+inurl:wp-content+|+inurl:plugins+|+inurl:uploads+|+inurl:themes+|+inurl:download"
+        } 
+		,
+		 {
+                "title" : "Google Dorking - Database Files", 
+				"category" : "Google Dorking",
+				"startsite": 1,
+                "url" : "https://www.google.com/search?q=site:xxPBBDSxx+ext:sql+|+ext:dbf+|+ext:mdb"
+        }
+		,
+		 {
+                "title" : "Google Dorking - Backup Files", 
+				"category" : "Google Dorking",
+				"startsite": 1,
+                "url" : "https://www.google.com/search?q=site:xxPBBDSxx+ext:bkf+|+ext:bkp+|+ext:bak+|+ext:old+|+ext:backup"
+        }
 		,
         {
                 "title" : "Subdomain Finder subdomainfinder subdomainfinder.c99.nl", 
 				"category" : "Subdomain",
+				"startsite": 1,
                 "url" : "https://subdomainfinder.c99.nl/search.php?domain=xxPBBDSxx"
         }
 		,
         {
                 "title" : "MXTool (CName)", 
 				"category" : "Lookup",
+				"startsite": 1,
                 "url" : "https://mxtoolbox.com/SuperTool.aspx?action=cname%3axxPBBDSxx&run=toolpage"
         }
 		,
         {
                 "title" : "Shodan.io", 
 				"category" : "Server",
+				"startsite": 1,
                 "url" : "https://www.shodan.io/search?query=xxPBBDSxx"
         },
         {
                 "title" : "Fofa Application Check", 
 				"category" : "Server",
+				"startsite": 1,
                 "url" : "https://fofa.so/result?q=xxPBBDSxx"
         }
 		,
         {
                 "title" : "Certificate Check crt.sh", 
 				"category" : "Server",
+				"startsite": 1,
                 "url" : "https://crt.sh/?q=xxPBBDSxx"
         }
 		,
         {
                 "title" : "What CMS", 
 				"category" : "Website",
+				"startsite": 1,
                 "url" : "https://whatcms.org/?s=xxPBBDSxx"
         }
         ,
         {
-                "title" : "Github Dorking", 
+                "title" : "Github Dorking - Code", 
 				"category" : "Github Dorking",
+				"startsite": 1,
                 "url" : "https://github.com/search?q=xxPBBDSxx&type=code"
         }
 		,
         {
                 "title" : "Wayback Machine Link Check", 
 				"category" : "Link Check",
+				"startsite": 1,
                 "url" : "https://web.archive.org/web/*/https://xxPBBDSxx/*"
         }
 		,
         {
                 "title" : "Broken Link Check", 
 				"category" : "Link Check",
+				"startsite": 1,
                 "url" : "https://www.brokenlinkcheck.com/broken-links.php#status"
         }		
 ]
