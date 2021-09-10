@@ -7,6 +7,7 @@ For your Bug Bounty Recon (Mobile First :) )
     - [x] Input read for Domain
     - [ ] Select multi "or" for Google Dorking
     - [ ] Select multi "or" for Github Dorking
+    - [ ] Add todo list 
     - [ ] Add tabs / categories 
     
 <br />
