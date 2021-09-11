@@ -24,6 +24,9 @@ function createList(jsonlist) {
 	menuList = [];
   
     for (var i = 0; i < numberOfListItems; ++i) {
+		if (jsonlist[i]['start'] != 1){
+			continue;
+		}
         // create an item for each one
         const listItem = document.createElement('li');
         // Add the item text
@@ -34,20 +37,53 @@ function createList(jsonlist) {
 			menuList.push(jsonlist[i]['category']);
 		}
     }
-	createMenu(menuList);
-	
+	createMenu(menuList,jsonlist);
 }
+
+function changeList(jsonlist, category) {
+    // Set up a loop that goes through the items in listItems one at a time
+    numberOfListItems = jsonlist.length;
+	var el = document.getElementById('reconlist').getElementsByTagName('ul')[0];
+	if(el) {
+		el.remove();
+	}
+
+    listContainer = document.getElementById('reconlist');
+    // Make the list
+    listElement = document.createElement('ul');
+    listContainer.appendChild(listElement);
+  
+    for (var i = 0; i < numberOfListItems; ++i) {
+		if (jsonlist[i]['category'] != category){
+			continue;
+		}
+        // create an item for each one
+        const listItem = document.createElement('li');
+        // Add the item text
+        listItem.innerHTML = "<a class='after' href='"+jsonlist[i]['url']+"' onclick=\"replacePlaceholder('listitem"+i+"'); return false;\"  id=\"listitem"+i+"\" target=\"_blank\">"+jsonlist[i]['title']+"</a>";
+        // Add listItem to the listElement
+        listElement.appendChild(listItem);	
+    }
+	console.log(jsonlist);
+}
+
 function createMenu(menuList) {
 	menuContainer = document.getElementById('menuCategoryList');
     // Make the menu
     menuElement = document.createElement('ul');
     menuContainer.appendChild(menuElement);
 
+	const listItem = document.createElement('li');
+    // Add the item text
+    listItem.innerHTML = "<a href='#' id=\"menuitemall\" onclick=\"createList('all')\" target=\"_blank\">Show all</a>";
+    // Add listItem to the menuElement
+    menuElement.appendChild(listItem);
+	
 	menuList.forEach(function (item) {
 		// create an item for each one
         const listItem = document.createElement('li');
         // Add the item text
-        listItem.innerHTML = "<a href='#' id=\"menuitem"+item+"\" target=\"_blank\">"+item+"</a>";
+        listItem.innerHTML = "<a href='#' id=\"menuitem"+item+"\" onclick=\"changeList(jsonlist,'"+item+"')\">"+item+"</a>";
         // Add listItem to the menuElement
         menuElement.appendChild(listItem);
 	});
@@ -67,3 +103,6 @@ function replacePlaceholder(listid) {
 	window.open(x.replaceAll("xxPBBDSxx", domain), '_blank');
 	
 }
+
+
+
