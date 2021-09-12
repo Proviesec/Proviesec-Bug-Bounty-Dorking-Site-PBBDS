@@ -119,7 +119,7 @@
         }
         ,
         {
-                "title" : "Website sucuri scan", 
+             "title" : "Website sucuri scan", 
 		"category" : "Website",
 		"start": 1,
                 "url" : "https://sitecheck.sucuri.net/results/xxPBBDSxx"
@@ -140,14 +140,14 @@
         }
         ,
 	{
-                "title" : "Website 	observatory mozilla ", 
+        "title" : "Website observatory mozilla",
 		"category" : "Website",
 		"start": 1,
                 "url" : "https://observatory.mozilla.org/analyze/xxPBBDSxx"
         }
         ,
         {
-                "title" : "Github Dorking - Code", 
+                "title" : "Github Dorking - Code",
 		"category" : "Github Dorking",
 		"start": 1,
                 "url" : "https://github.com/search?q=xxPBBDSxx&type=code"
