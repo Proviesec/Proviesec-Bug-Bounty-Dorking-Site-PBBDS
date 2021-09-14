@@ -97,7 +97,13 @@
         "url" : "https://dnsdumpster.com/"
     }
 	,
-	
+	{
+        "title" : "Chaos - Project discovery (No Domain Prefill)", 
+	    "category" : "Subdomain",
+		"start": 0,
+        "url" : "https://chaos.projectdiscovery.io/#/"
+    }
+	,
     {
         "title" : "MXTool (CName)", 
 		"category" : "Lookup",
