@@ -5,6 +5,7 @@ For your Bug Bounty Recon (Mobile First :) )
 
     - [x] Dynamic json file for li list
     - [x] Input read for Domain
+    - [ ] input search 
     - [ ] Select multi "or" for Google Dorking
     - [ ] Select multi "or" for Github Dorking
     - [ ] Add todo list 
