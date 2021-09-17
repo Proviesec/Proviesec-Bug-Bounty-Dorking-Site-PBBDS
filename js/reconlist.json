@@ -61,6 +61,20 @@
 		"start": 1,
         "url" : "https://www.google.com/search?q=site:xxPBBDSxx+ext:sql+|+ext:dbf+|+ext:mdb"
     }
+    ,
+	{
+        "title" : "Google Dorking - SQL errors", 
+		"category" : "Google Dorking",
+		"start": 0,
+        "url" : "https://www.google.com/search?q=site:xxPBBDSxx+intext:%22sql+syntax+near%22+|+intext:%22syntax+error+has+occurred%22+|+intext:%22incorrect+syntax+near%22+|+intext:%22unexpected+end+of+SQL+command%22+|+intext:%22Warning:+mysql_connect()%22+|+intext:%22Warning:+mysql_query()%22+|+intext:%22Warning:+pg_connect()%22"
+    }
+	,
+	{
+        "title" : "Google Dorking - Database Files", 
+		"category" : "Google Dorking",
+		"start": 1,
+        "url" : "https://www.google.com/search?q=site:xxPBBDSxx+ext:doc+|+ext:docx+|+ext:odt+|+ext:pdf+|+ext:rtf+|+ext:sxw+|+ext:psw+|+ext:ppt+|+ext:pptx+|+ext:pps+|+ext:csv"
+    }
 	,
 	{
         "title" : "Google Dorking - Backup Files", 
@@ -74,6 +88,13 @@
 		"category" : "Google Dorking",
 		"start": 0,
         "url" : "https://www.google.com/search?q=site%3A%22xxPBBDSxx%22+intitle%3Aadmin+intext%3Alogin+intext%3Ausername+%7C+email+intext%3Apassword+-help+-docs+-support+-news"
+    }
+	,
+	{
+        "title" : "Google Dorking - Backdoors?", 
+		"category" : "Google Dorking",
+		"start": 0,
+        "url" : "https://www.google.com/search?q=site:xxPBBDSxx+inurl:shell+|+inurl:backdoor+|+inurl:wso+|+inurl:cmd+|+shadow+|+passwd+|+boot.ini+|+inurl:backdoor"
     }
     ,	
 	{
@@ -193,6 +214,13 @@
 		"category" : "Website",
 		"start": 0,
         "url" : "https://www.virustotal.com/gui/home/url"
+    }
+    ,
+	{
+        "title" : "Website Ckick Hijacking",
+		"category" : "Website",
+		"start": 0,
+        "url" : "https://clickjacker.io/test?url=xxPBBDSxx"
     }
     ,
     {
