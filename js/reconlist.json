@@ -224,14 +224,14 @@
     }
 	,
 	{
-        "title" : "Censys Domain Check",
+        "title" : "Censys - Domain Check",
 		"category" : "Website",
 		"start": 0,
         "url" : "https://censys.io/domain/xxPBBDSxx"
     }
 	,
 	{
-        "title" : "Censys IPv4 Hosts",
+        "title" : "Censys - IPv4 Hosts",
 		"category" : "Website",
 		"start": 0,
         "url" : "https://censys.io/ipv4?q=xxPBBDSxx"
