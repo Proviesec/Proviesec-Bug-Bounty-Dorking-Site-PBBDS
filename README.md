@@ -8,6 +8,7 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] input search 
     - [ ] crlf search 
     - [.] ajax functions test / browser scan 
+    - [.] trello bitbucket Google dorking 
     - [ ] Select multi "or" for Google Dorking
     - [ ] Select multi "or" for Github Dorking
     - [ ] Add todo list 
