@@ -9,6 +9,7 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] crlf search 
     - [.] ajax functions test / browser scan 
     - [.] trello bitbucket Google dorking 
+    - [ ] Open many URLs tabs (WordPress admin pages) 
     - [ ] Select multi "or" for Google Dorking
     - [ ] Select multi "or" for Github Dorking
     - [ ] Add todo list 
