@@ -14,6 +14,8 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Select multi "or" for Github Dorking
     - [ ] Add todo list 
     - [ ] Add tabs / categories 
+    - [ ] Good bug bounty sites 
+  
     
 <br />
 <p align="center">
