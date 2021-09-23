@@ -15,6 +15,7 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Add todo list 
     - [ ] Add tabs / categories 
     - [ ] Good bug bounty sites 
+    - [ ] Good bug bounty portal list 
   
     
 <br />
