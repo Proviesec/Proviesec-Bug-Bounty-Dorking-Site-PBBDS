@@ -3,3 +3,5 @@ site:pastebin.com | site:paste2.org | site:pastehtml.com | site:slexy.org | site
 site:redacted.com inurl:admin "@gmail.com"
 
 Scanner with ajax calls? 
+
+Hackerone search 
