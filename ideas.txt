@@ -5,3 +5,5 @@ site:redacted.com inurl:admin "@gmail.com"
 Scanner with ajax calls? 
 
 Hackerone search 
+
+Checklist editor, for small, large targets... 
