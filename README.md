@@ -5,6 +5,7 @@ For your Bug Bounty Recon (Mobile First :) )
 
     - [x] Dynamic json file for li list
     - [x] Input read for Domain
+    - [ ] Button, without subdomains
     - [ ] input search 
     - [ ] crlf search 
     - [.] ajax functions test / browser scan 
