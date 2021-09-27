@@ -17,6 +17,10 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Add tabs / categories 
     - [ ] Good bug bounty sites 
     - [ ] Good bug bounty portal list 
+    - [ ] Scanner with ajax calls? 
+
+    - [ ] Checklist editor, for small, large targets... 
+
   
     
 <br />
