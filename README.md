@@ -14,7 +14,8 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Select multi "or" for Google Dorking
     - [ ] Select multi "or" for Github Dorking
     - [ ] Add todo list 
-    - [ ] Add tabs / categories 
+    - [x] Add tabs / categories 
+    - [ ] good xss payload copy page 
     - [ ] Good bug bounty sites 
     - [ ] Good bug bounty portal list 
     - [ ] Scanner with ajax calls? 
