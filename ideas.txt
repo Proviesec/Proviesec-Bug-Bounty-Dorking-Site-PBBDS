@@ -6,4 +6,6 @@ site:*.atlassian.net "company"
 site:atlassian.net "company"
 inurl:gitlab "company"
 
+filetype:wsdl wsdl
+
 https://pentest-tools.com/website-vulnerability-scanning/xss-scanner-online#
