@@ -8,8 +8,8 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Button, without subdomains
     - [ ] input search 
     - [ ] crlf search 
-    - [.] ajax functions test / browser scan 
-    - [.] trello bitbucket Google dorking 
+    - [ ] ajax functions test / browser scan 
+    - [ ] trello bitbucket Google dorking 
     - [ ] Open many URLs tabs (WordPress admin pages) 
     - [ ] Select multi "or" for Google Dorking
     - [ ] Select multi "or" for Github Dorking
@@ -19,7 +19,6 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Good bug bounty sites 
     - [ ] Good bug bounty portal list 
     - [ ] Scanner with ajax calls? 
-
     - [ ] Checklist editor, for small, large targets... 
 
   
