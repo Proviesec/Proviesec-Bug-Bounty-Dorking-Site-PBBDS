@@ -217,7 +217,7 @@
     }
     ,
 	{
-        "title" : "Website Ckick Hijacking",
+        "title" : "Website Click Hijacking",
 		"category" : "Website",
 		"start": 0,
         "url" : "https://clickjacker.io/test?url=xxPBBDSxx"
@@ -283,6 +283,6 @@
         "title" : "Misc - Trello password find", 
 		"category" : "Misc",
 		"start": 1,
-        "url" : "https://www.google.com/search?q=inurl%3Ahttps%3A%2F%2FxxPBBDSxx+AND+intext%3AxxPBBDSxx+intext%3Apassword"
+        "url" : "https://www.google.com/search?q=inurl%3Ahttps%3A%2F%2Ftrello.com+AND+intext%3AxxPBBDSxx+intext%3Apassword"
     } 
 ]
