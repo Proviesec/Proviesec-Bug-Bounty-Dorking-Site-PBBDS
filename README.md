@@ -19,6 +19,7 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Good bug bounty sites 
     - [ ] Good bug bounty portal list 
     - [ ] Scanner with ajax calls? 
+    - [ ] Iframe test site (Click hjacking) 
     - [ ] Checklist editor, for small, large targets... 
 
   
