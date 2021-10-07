@@ -266,10 +266,10 @@
     }
 	,
 	{
-        "title" : "Github Dorking - Code", 
+        "title" : "Github Dorking - Code Secret", 
 		"category" : "Github Dorking",
 		"start": 1,
-        "url" : "https://github.com/search?q=xxPBBDSxx&type=code"
+        "url" : "https://github.com/search?q=xxPBBDSxx+secret&type=code"
     }
 	,
     {
