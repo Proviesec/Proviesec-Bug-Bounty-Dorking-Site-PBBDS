@@ -244,6 +244,13 @@
         "url" : "https://censys.io/ipv4?q=xxPBBDSxx"
     }
 	,
+	{
+        "title" : "Domainstats - Valuable information and metrics",
+		"category" : "Website",
+		"start": 0,
+        "url" : "https://domainstats.com/xxPBBDSxx"
+    }
+	,
     {
         "title" : "wpsec.com WP Scanner (No Domain Prefill)",
 		"category" : "Wordpress Scanner",
