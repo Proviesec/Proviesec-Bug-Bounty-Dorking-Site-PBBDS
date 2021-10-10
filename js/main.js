@@ -12,16 +12,19 @@ function loadJSON(callback) {
     };
     xobj.send(null);  
 }
+
 function createList(jsonlist) {
+
     // Set up a loop that goes through the items in listItems one at a time
     numberOfListItems = jsonlist.length;
 
     listContainer = document.getElementById('reconlist');
+   
     // Make the list
     listElement = document.createElement('ul');
     listContainer.appendChild(listElement);
 
-	menuList = [];
+    menuList = [];
   
     for (var i = 0; i < numberOfListItems; ++i) {
 		if (jsonlist[i]['start'] != 1){
@@ -41,6 +44,7 @@ function createList(jsonlist) {
 }
 
 function changeList(jsonlist, category) {
+
     // Set up a loop that goes through the items in listItems one at a time
     numberOfListItems = jsonlist.length;
 	var el = document.getElementById('reconlist').getElementsByTagName('ul')[0];
@@ -59,6 +63,7 @@ function changeList(jsonlist, category) {
 		}
         // create an item for each one
         const listItem = document.createElement('li');
+       
         // Add the item text
         listItem.innerHTML = "<a class='after' href='"+jsonlist[i]['url']+"' onclick=\"replacePlaceholder('listitem"+i+"'); return false;\"  id=\"listitem"+i+"\" target=\"_blank\">"+jsonlist[i]['title']+"</a>";
         // Add listItem to the listElement
@@ -87,6 +92,7 @@ function createMenu(menuList) {
         menuElement.appendChild(listItem);
 	});
 }
+
 // import the array which acts as a data source for the list
 function makeList() {
     loadJSON(function(response) {
@@ -97,6 +103,7 @@ function makeList() {
 }
 
 function replacePlaceholder(listid) {
+
 	var x = document.getElementById(listid).href;
 	var domain = document.getElementById('domain').value;
 	window.open(x.replaceAll("xxPBBDSxx", domain), '_blank');
