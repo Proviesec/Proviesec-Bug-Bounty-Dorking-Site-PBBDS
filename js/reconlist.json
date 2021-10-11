@@ -272,6 +272,20 @@
         "url" : "https://github.com/search?q=xxPBBDSxx&type=code"
     }
 	,
+    {
+        "title" : "Github Dorking - PEM Private",
+		"category" : "Github Dorking",
+		"start": 0,
+        "url" : "https://github.com/search?q=xxPBBDSxx+extension%3Apem+private"
+    }
+	,
+    {
+        "title" : "Github Dorking - PEM Private",
+		"category" : "Github Dorking",
+		"start": 0,
+        "url" : "https://github.com/search?q=xxPBBDSxx+filename:wp-config.php"
+    }
+	,
 	{
         "title" : "Github Dorking - Code Secret", 
 		"category" : "Github Dorking",
