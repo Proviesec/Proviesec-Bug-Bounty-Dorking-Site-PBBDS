@@ -272,6 +272,13 @@
         "url" : "https://github.com/search?q=xxPBBDSxx&type=code"
     }
 	,
+	{
+        "title" : "Github Dorking - Code PYthon Secret",
+		"category" : "Github Dorking",
+		"start": 0,
+        "url" : "https://github.com/search?q=xxPBBDSxx+language%3Apython+%22secret%22+%22password%22+%22key%22+NOT+support+NOT+docs+NOT+sandbox+NOT+docker+NOT+container+NOT+test+NOT+fake&type=code"
+    }
+	,
     {
         "title" : "Github Dorking - PEM Private",
 		"category" : "Github Dorking",
@@ -290,7 +297,7 @@
         "title" : "Github Dorking - Code Secret", 
 		"category" : "Github Dorking",
 		"start": 1,
-        "url" : "https://github.com/search?q=xxPBBDSxx+secret&type=code"
+        "url" : "https://github.com/search?q=xxPBBDSxx+%22password%22+%22secret%22+NOT+test&type=code"
     }
 	,
     {
