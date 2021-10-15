@@ -16,6 +16,7 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Add todo list 
     - [x] Add tabs / categories 
     - [ ] good xss payload copy page 
+    - [ ] xss configuration (jquery....) 
     - [ ] Good bug bounty sites 
     - [ ] Good bug bounty portal list 
     - [ ] Scanner with ajax calls? 
