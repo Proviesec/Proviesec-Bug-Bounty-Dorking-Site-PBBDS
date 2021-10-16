@@ -300,6 +300,13 @@
         "url" : "https://github.com/search?q=xxPBBDSxx+%22password%22+%22secret%22+NOT+test&type=code"
     }
 	,
+	{
+        "title" : "Github Dorking - Code Password", 
+		"category" : "Github Dorking",
+		"start": 0,
+        "url" : "https://github.com/search?q=xxPBBDSxx+filename%3Asecrets+password&type=Code"
+    }
+	,
     {
         "title" : "Wayback Machine Link Check", 
 		"category" : "Link Check",
