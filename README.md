@@ -9,7 +9,7 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] input search 
     - [ ] crlf search 
     - [ ] ajax functions test / browser scan 
-    - [ ] GitHub file dorking 
+    - [x] GitHub file dorking
     - [ ] Open many URLs tabs (WordPress admin pages) 
     - [ ] Select multi "or" for Google Dorking
     - [ ] Select multi "or" for Github Dorking
