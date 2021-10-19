@@ -6,4 +6,6 @@ https://infosecwriteups.com/accessing-grofers-grafana-instance-using-shodan-52c5
 
 https://medium.com/@hackrider/exploiting-devops-get-source-code-d4f5825eb373
 
+https://mikekitckchan.medium.com/from-google-dorking-to-information-disclosure-5da4f1d771e5
+
 https://hackerone.com/reports/643274
