@@ -5,16 +5,16 @@ For your Bug Bounty Recon (Mobile First :) )
 
     - [x] Dynamic json file for li list
     - [x] Input read for Domain
+    - [x] GitHub file dorking
+    - [x] Add tabs / categories 
     - [ ] Button, without subdomains
     - [ ] input search 
     - [ ] crlf search 
     - [ ] ajax functions test / browser scan 
-    - [x] GitHub file dorking
     - [ ] Open many URLs tabs (WordPress admin pages) 
     - [ ] Select multi "or" for Google Dorking
     - [ ] Select multi "or" for Github Dorking
     - [ ] Add todo list 
-    - [x] Add tabs / categories 
     - [ ] good xss payload copy page 
     - [ ] xss configuration (jquery....) 
     - [ ] Good bug bounty sites 
@@ -22,8 +22,6 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Scanner with ajax calls? 
     - [ ] Iframe test site (Click hjacking) 
     - [ ] Checklist editor, for small, large targets... 
-
-  
     
 <br />
 <p align="center">
