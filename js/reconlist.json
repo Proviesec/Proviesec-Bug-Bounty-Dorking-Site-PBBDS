@@ -250,6 +250,13 @@
 		"start": 0,
         "url" : "https://domainstats.com/xxPBBDSxx"
     }
+    ,
+    {
+        "title" : "Domain Glass - Information and metrics",
+	"category" : "Website",
+	"start": 0,
+        "url" : "https://domain.glass/xxPBBDSxx"
+    }
 	,
     {
         "title" : "wpsec.com WP Scanner (No Domain Prefill)",
