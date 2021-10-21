@@ -72,25 +72,25 @@ function changeList(jsonlist, category) {
 }
 
 function createMenu(menuList) {
-	menuContainer = document.getElementById('menuCategoryList');
+    menuContainer = document.getElementById('menuCategoryList');
     // Make the menu
     menuElement = document.createElement('ul');
     menuContainer.appendChild(menuElement);
 
-	const listItem = document.createElement('li');
+    const listItem = document.createElement('li');
     // Add the item text
     listItem.innerHTML = "<a href='#' id=\"menuitemall\" onclick=\"changeList(jsonlist,'all')\">Show all</a>";
     // Add listItem to the menuElement
     menuElement.appendChild(listItem);
 	
-	menuList.forEach(function (item) {
+    menuList.forEach(function (item) {
 		// create an item for each one
         const listItem = document.createElement('li');
         // Add the item text
         listItem.innerHTML = "<a href='#' id=\"menuitem"+item+"\" onclick=\"changeList(jsonlist,'"+item+"')\">"+item+"</a>";
         // Add listItem to the menuElement
         menuElement.appendChild(listItem);
-	});
+    });
 }
 
 // import the array which acts as a data source for the list
