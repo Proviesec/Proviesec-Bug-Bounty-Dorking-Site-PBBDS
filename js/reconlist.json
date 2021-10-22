@@ -280,6 +280,13 @@
     }
 	,
 	{
+        "title" : "Github Dorking - Code - SQL",
+		"category" : "Github Dorking",
+		"start": 0,
+        "url" : "https://github.com/search?q=xxPBBDSxx&type=code&extension:sql&mysql&dump"
+    }
+	,
+	{
         "title" : "Github Dorking - Code PYthon Secret",
 		"category" : "Github Dorking",
 		"start": 0,
