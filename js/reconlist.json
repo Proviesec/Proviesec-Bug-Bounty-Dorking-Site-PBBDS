@@ -19,21 +19,21 @@
 	"start": 0,
         "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:phpinfo%20\"published by the PHP Group\""
    } 
-	,
-	{
+   ,
+   {
         "title" : "Google Dorking - Files", 
-		"category" : "Google Dorking",
-		"start": 1,
+	"category" : "Google Dorking",
+	"start": 1,
         "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20ext:xml%20|%20ext:conf%20|%20ext:cnf%20|%20ext:reg%20|%20ext:inf%20|%20ext:rdp%20|%20ext:cfg%20|%20ext:txt%20|%20ext:ora%20|%20ext:ini"
     } 
-	,
-	{
+    ,
+    {
         "title" : "Google Dorking - Login / Register", 
-		"category" : "Google Dorking",
-		"start": 1,
+	"category" : "Google Dorking",
+	"start": 1,
         "url" : "https://www.google.com/search?q=site%3AxxPBBDSxx++intitle%3Alogin+%7C+inurl%3Alogin+%7C+intitle%3Aregister+%7C+inurl%3Aregister"
     } 
-	,
+    ,
 	{
         "title" : "Google Dorking - Redirects", 
 		"category" : "Google Dorking",
