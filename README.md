@@ -9,7 +9,7 @@ For your Bug Bounty Recon (Mobile First :) )
     - [x] Add tabs / categories 
     - [ ] Button, without subdomains
     - [ ] input search 
-    - [ ] crlf search 
+    - [ ] crlf search -> crlf payload -> github
     - [ ] ajax functions test / browser scan 
     - [ ] Open many URLs tabs (WordPress admin pages) 
     - [ ] Select multi "or" for Google Dorking
