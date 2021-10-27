@@ -1,350 +1,302 @@
 [
-   {
-        "title" : "Google Dorking - intitle:index.of", 
-	"category" : "Google Dorking",
-	"start": 1,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:index.of"
-   }
-   ,
-   {
-        "title" : "Google Dorking - phpMyAdmin", 
-	"category" : "Google Dorking",
-	"start": 0,
-        "url" : "https://www.google.com/search?q=site%3AxxPBBDSxx+%22phpMyAdmin%22"
-   }
-   ,
-   {
-        "title" : "Google Dorking - phpinfo()", 
-	"category" : "Google Dorking",
-	"start": 0,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:phpinfo%20\"published by the PHP Group\""
-   } 
-   ,
-   {
-        "title" : "Google Dorking - Files", 
-	"category" : "Google Dorking",
-	"start": 1,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20ext:xml%20|%20ext:conf%20|%20ext:cnf%20|%20ext:reg%20|%20ext:inf%20|%20ext:rdp%20|%20ext:cfg%20|%20ext:txt%20|%20ext:ora%20|%20ext:ini"
-    } 
-    ,
     {
-        "title" : "Google Dorking - Login / Register", 
-	"category" : "Google Dorking",
-	"start": 1,
-        "url" : "https://www.google.com/search?q=site%3AxxPBBDSxx++intitle%3Alogin+%7C+inurl%3Alogin+%7C+intitle%3Aregister+%7C+inurl%3Aregister"
-    } 
-    ,
-	{
-        "title" : "Google Dorking - Redirects", 
-		"category" : "Google Dorking",
-		"start": 1,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20inurl:redir%20|%20inurl:url%20|%20inurl:redirect%20|%20inurl:redirect%20|%20inurl:return%20|%20inurl:src=http%20|%20inurl:r=http"
-    } 
-	,
-	{
-        "title" : "Google Dorking - Log Username", 
-		"category" : "Google Dorking",
-		"start": 1,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx%20allintext:username%20filetype:log"
-    } 
-	,		
-	{
-        "title" : "Google Dorking - Find Wordpress", 
-		"category" : "Google Dorking",
-		"start": 0,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx+inurl:wp-+|+inurl:wp-content+|+inurl:plugins+|+inurl:uploads+|+inurl:themes+|+inurl:download"
-    } 
-	,
-	{
-        "title" : "Google Dorking - Find dev things", 
-		"category" : "Google Dorking",
-		"start": 0,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx+inurl:dev"
-    } 
-	,
-	{
-        "title" : "Google Dorking - Database Files", 
-		"category" : "Google Dorking",
-		"start": 1,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx+ext:sql+|+ext:dbf+|+ext:mdb"
-    }
-    ,
-	{
-        "title" : "Google Dorking - SQL errors", 
-		"category" : "Google Dorking",
-		"start": 0,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx+intext:%22sql+syntax+near%22+|+intext:%22syntax+error+has+occurred%22+|+intext:%22incorrect+syntax+near%22+|+intext:%22unexpected+end+of+SQL+command%22+|+intext:%22Warning:+mysql_connect()%22+|+intext:%22Warning:+mysql_query()%22+|+intext:%22Warning:+pg_connect()%22"
-    }
-	,
-	{
-        "title" : "Google Dorking - Database Files", 
-		"category" : "Google Dorking",
-		"start": 1,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx+ext:doc+|+ext:docx+|+ext:odt+|+ext:pdf+|+ext:rtf+|+ext:sxw+|+ext:psw+|+ext:ppt+|+ext:pptx+|+ext:pps+|+ext:csv"
-    }
-	,
-	{
-        "title" : "Google Dorking - Backup Files", 
-		"category" : "Google Dorking",
-		"start": 1,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx+ext:bkf+|+ext:bkp+|+ext:bak+|+ext:old+|+ext:backup"
-    }
-	,
-	{
-        "title" : "Google Dorking - Admin Login?", 
-		"category" : "Google Dorking",
-		"start": 0,
-        "url" : "https://www.google.com/search?q=site%3A%22xxPBBDSxx%22+intitle%3Aadmin+intext%3Alogin+intext%3Ausername+%7C+email+intext%3Apassword+-help+-docs+-support+-news"
-    }
-	,
-	{
-        "title" : "Google Dorking - Backdoors?", 
-		"category" : "Google Dorking",
-		"start": 0,
-        "url" : "https://www.google.com/search?q=site:xxPBBDSxx+inurl:shell+|+inurl:backdoor+|+inurl:wso+|+inurl:cmd+|+shadow+|+passwd+|+boot.ini+|+inurl:backdoor"
-    }
-    ,	
-	{
-        "title" : "Google Dorking - Available Pastes of the target?", 
-		"category" : "Google Dorking",
-		"start": 0,
-        "url" : "https://www.google.com/search?q=site%3Apastebin.com+%7C+site%3Apaste2.org+%7C+site%3Apastehtml.com+%7C+site%3Aslexy.org+%7C+site%3Asnipplr.com+%7C+site%3Asnipt.net+%7C+site%3Atextsnip.com+%7C+site%3Abitpaste.app+%7C+site%3Ajustpaste.it+%7C+site%3Aheypasteit.com+%7C+site%3Ahastebin.com+%7C+site%3Adpaste.org+%7C+site%3Adpaste.com+%7C+site%3Acodepad.org+%7C+site%3Ajsitor.com+%7C+site%3Acodepen.io+%7C+site%3Ajsfiddle.net+%7C+site%3Adotnetfiddle.net+%7C+site%3Aphpfiddle.org+%7C+site%3Aide.geeksforgeeks.org+%7C+site%3Arepl.it+%7C+site%3Aideone.com+%7C+site%3Apaste.debian.net+%7C+site%3Apaste.org+%7C+site%3Apaste.org.ru+%7C+site%3Acodebeautify.org+%7C+site%3Acodeshare.io+%7C+site%3Atrello.com+%22xxPBBDSxx%22"
-    }
-	,
+        "title": "Google Dorking - intitle:index.of",
+        "category": "Google Dorking",
+        "start": 1,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:index.of"
+    },
     {
-        "title" : "Subdomain Finder subdomainfinder subdomainfinder.c99.nl", 
-	    "category" : "Subdomain",
-		"start": 1,
-        "url" : "https://subdomainfinder.c99.nl/search.php?domain=xxPBBDSxx"
-    }
-	,
-	{
-        "title" : "DNS Dumpster (No Domain Prefill)", 
-	    "category" : "Subdomain",
-		"start": 0,
-        "url" : "https://dnsdumpster.com/"
-    }
-	,
-	{
-        "title" : "Chaos - Project discovery (No Domain Prefill)", 
-	    "category" : "Subdomain",
-		"start": 0,
-        "url" : "https://chaos.projectdiscovery.io/#/"
-    }
-	,
+        "title": "Google Dorking - phpMyAdmin",
+        "category": "Google Dorking",
+        "start": 0,
+        "url": "https://www.google.com/search?q=site%3AxxPBBDSxx+%22phpMyAdmin%22"
+    },
     {
-        "title" : "MXTool (CName)", 
-		"category" : "Lookup",
-		"start": 1,
-        "url" : "https://mxtoolbox.com/SuperTool.aspx?action=cname%3axxPBBDSxx&run=toolpage"
-    }
-	,
+        "title": "Google Dorking - phpinfo()",
+        "category": "Google Dorking",
+        "start": 0,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:phpinfo%20\"published by the PHP Group\""
+    },
     {
-        "title" : "Nmmapper (Port Scanner) (No Domain Prefill)", 
-		"category" : "Server",
-		"start": 1,
-        "url" : "https://www.nmmapper.com/sys/networkmapper/nmap/online-port-scanning"
-    }
-	,
-	{
-        "title" : "Shodan.io", 
-		"category" : "Server",
-		"start": 1,
-        "url" : "https://www.shodan.io/search?query=xxPBBDSxx"
-    }
-	,
+        "title": "Google Dorking - Files",
+        "category": "Google Dorking",
+        "start": 1,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx%20ext:xml%20|%20ext:conf%20|%20ext:cnf%20|%20ext:reg%20|%20ext:inf%20|%20ext:rdp%20|%20ext:cfg%20|%20ext:txt%20|%20ext:ora%20|%20ext:ini"
+    },
     {
-        "title" : "Fofa Application Check", 
-		"category" : "Server",
-		"start": 1,
-        "url" : "https://fofa.so/result?q=xxPBBDSxx"
-    }
-	,
+        "title": "Google Dorking - Login / Register",
+        "category": "Google Dorking",
+        "start": 1,
+        "url": "https://www.google.com/search?q=site%3AxxPBBDSxx++intitle%3Alogin+%7C+inurl%3Alogin+%7C+intitle%3Aregister+%7C+inurl%3Aregister"
+    },
     {
-        "title" : "Certificate Check crt.sh", 
-		"category" : "Server",
-		"start": 1,
-        "url" : "https://crt.sh/?q=xxPBBDSxx"
-    }
-	,
+        "title": "Google Dorking - Redirects",
+        "category": "Google Dorking",
+        "start": 1,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx%20inurl:redir%20|%20inurl:url%20|%20inurl:redirect%20|%20inurl:redirect%20|%20inurl:return%20|%20inurl:src=http%20|%20inurl:r=http"
+    },
     {
-        "title" : "What CMS", 
-		"category" : "Website",
-		"start": 1,
-        "url" : "https://whatcms.org/?s=xxPBBDSxx"
-    }
-    ,
+        "title": "Google Dorking - Log Username",
+        "category": "Google Dorking",
+        "start": 1,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx%20allintext:username%20filetype:log"
+    },
     {
-        "title" : "Website sucuri scan", 
-		"category" : "Website",
-		"start": 1,
-        "url" : "https://sitecheck.sucuri.net/results/xxPBBDSxx"
-    }
-    ,
-	{
-        "title" : "Website robots.txt", 
-		"category" : "Website",
-		"start": 1,
-        "url" : "https://xxPBBDSxx/robots.txt"
-    }
-    ,
-	{
-        "title" : "Website SSL Test", 
-		"category" : "Website",
-		"start": 1,
-        "url" : "https://www.ssllabs.com/ssltest/analyze?d=xxPBBDSxx"
-    }
-    ,
-	{
-        "title" : "Website observatory mozilla",
-		"category" : "Website",
-		"start": 1,
-        "url" : "https://observatory.mozilla.org/analyze/xxPBBDSxx"
-    }
-    ,
-	{
-        "title" : "Website Urlvoid Scan ",
-		"category" : "Website",
-		"start": 0,
-        "url" : "https://www.urlvoid.com/scan/xxPBBDSxx/"
-    }
-    ,
-	{
-        "title" : "Website Upguard Security Rating",
-		"category" : "Website",
-		"start": 0,
-        "url" : "https://www.upguard.com/instant-security-score/report?c=xxPBBDSxx"
-    }
-    ,
-	{
-        "title" : "Website Virustotal (No Domain Prefill)",
-		"category" : "Website",
-		"start": 0,
-        "url" : "https://www.virustotal.com/gui/home/url"
-    }
-    ,
-	{
-        "title" : "Website Click Hijacking",
-		"category" : "Website",
-		"start": 0,
-        "url" : "https://clickjacker.io/test?url=xxPBBDSxx"
-    }
-	,
-	{
-        "title" : "Censys - Domain Check",
-		"category" : "Website",
-		"start": 0,
-        "url" : "https://search.censys.io/search?resource=hosts&q=xxPBBDSxx"
-    }
-	,
-	{
-        "title" : "Censys - IPv4 Hosts",
-		"category" : "Website",
-		"start": 0,
-        "url" : "https://censys.io/ipv4?q=xxPBBDSxx"
-    }
-	,
-	{
-        "title" : "Domainstats - Valuable information and metrics",
-		"category" : "Website",
-		"start": 0,
-        "url" : "https://domainstats.com/xxPBBDSxx"
-    }
-    ,
+        "title": "Google Dorking - Find Wordpress",
+        "category": "Google Dorking",
+        "start": 0,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx+inurl:wp-+|+inurl:wp-content+|+inurl:plugins+|+inurl:uploads+|+inurl:themes+|+inurl:download"
+    },
     {
-        "title" : "Domain Glass - Information and metrics",
-	"category" : "Website",
-	"start": 0,
-        "url" : "https://domain.glass/xxPBBDSxx"
-    }
-	,
+        "title": "Google Dorking - Find dev things",
+        "category": "Google Dorking",
+        "start": 0,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx+inurl:dev"
+    },
     {
-        "title" : "wpsec.com WP Scanner (No Domain Prefill)",
-		"category" : "Wordpress Scanner",
-		"start": 0,
-        "url" : "https://wpsec.com/"
-    }
-    , 
-	{
-        "title" : "hackertarget.com WP Scanner(No Domain Prefill)",
-		"category" : "Wordpress Scanner",
-		"start": 0,
-        "url" : "https://hackertarget.com/wordpress-security-scan/"
-    }
-    ,
+        "title": "Google Dorking - Database Files",
+        "category": "Google Dorking",
+        "start": 1,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx+ext:sql+|+ext:dbf+|+ext:mdb"
+    },
     {
-        "title" : "Github Dorking - Code",
-		"category" : "Github Dorking",
-		"start": 1,
-        "url" : "https://github.com/search?q=xxPBBDSxx&type=code"
-    }
-	,
-	{
-        "title" : "Github Dorking - Code - SQL",
-		"category" : "Github Dorking",
-		"start": 0,
-        "url" : "https://github.com/search?q=xxPBBDSxx&type=code&extension:sql&mysql&dump"
-    }
-	,
-	{
-        "title" : "Github Dorking - Code PYthon Secret",
-		"category" : "Github Dorking",
-		"start": 0,
-        "url" : "https://github.com/search?q=xxPBBDSxx+language%3Apython+%22secret%22+%22password%22+%22key%22+NOT+support+NOT+docs+NOT+sandbox+NOT+docker+NOT+container+NOT+test+NOT+fake&type=code"
-    }
-	,
+        "title": "Google Dorking - SQL errors",
+        "category": "Google Dorking",
+        "start": 0,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx+intext:%22sql+syntax+near%22+|+intext:%22syntax+error+has+occurred%22+|+intext:%22incorrect+syntax+near%22+|+intext:%22unexpected+end+of+SQL+command%22+|+intext:%22Warning:+mysql_connect()%22+|+intext:%22Warning:+mysql_query()%22+|+intext:%22Warning:+pg_connect()%22"
+    },
     {
-        "title" : "Github Dorking - PEM Private",
-		"category" : "Github Dorking",
-		"start": 0,
-        "url" : "https://github.com/search?q=xxPBBDSxx+extension%3Apem+private"
-    }
-	,
+        "title": "Google Dorking - Database Files",
+        "category": "Google Dorking",
+        "start": 1,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx+ext:doc+|+ext:docx+|+ext:odt+|+ext:pdf+|+ext:rtf+|+ext:sxw+|+ext:psw+|+ext:ppt+|+ext:pptx+|+ext:pps+|+ext:csv"
+    },
     {
-        "title" : "Github Dorking - PEM Private",
-		"category" : "Github Dorking",
-		"start": 0,
-        "url" : "https://github.com/search?q=xxPBBDSxx+filename:wp-config.php"
-    }
-	,
-	{
-        "title" : "Github Dorking - Code Secret", 
-		"category" : "Github Dorking",
-		"start": 1,
-        "url" : "https://github.com/search?q=xxPBBDSxx+%22password%22+%22secret%22+NOT+test&type=code"
-    }
-	,
-	{
-        "title" : "Github Dorking - Code Password", 
-		"category" : "Github Dorking",
-		"start": 0,
-        "url" : "https://github.com/search?q=xxPBBDSxx+filename%3Asecrets+password&type=Code"
-    }
-	,
+        "title": "Google Dorking - Backup Files",
+        "category": "Google Dorking",
+        "start": 1,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx+ext:bkf+|+ext:bkp+|+ext:bak+|+ext:old+|+ext:backup"
+    },
     {
-        "title" : "Wayback Machine Link Check", 
-		"category" : "Link Check",
-		"start": 1,
-        "url" : "https://web.archive.org/web/*/https://xxPBBDSxx/*"
-    }
-	,
+        "title": "Google Dorking - Admin Login?",
+        "category": "Google Dorking",
+        "start": 0,
+        "url": "https://www.google.com/search?q=site%3A%22xxPBBDSxx%22+intitle%3Aadmin+intext%3Alogin+intext%3Ausername+%7C+email+intext%3Apassword+-help+-docs+-support+-news"
+    },
     {
-        "title" : "Broken Link Check", 
-		"category" : "Link Check",
-		"start": 1,
-        "url" : "https://www.brokenlinkcheck.com/broken-links.php#status"
+        "title": "Google Dorking - Backdoors?",
+        "category": "Google Dorking",
+        "start": 0,
+        "url": "https://www.google.com/search?q=site:xxPBBDSxx+inurl:shell+|+inurl:backdoor+|+inurl:wso+|+inurl:cmd+|+shadow+|+passwd+|+boot.ini+|+inurl:backdoor"
+    },
+    {
+        "title": "Google Dorking - Available Pastes of the target?",
+        "category": "Google Dorking",
+        "start": 0,
+        "url": "https://www.google.com/search?q=site%3Apastebin.com+%7C+site%3Apaste2.org+%7C+site%3Apastehtml.com+%7C+site%3Aslexy.org+%7C+site%3Asnipplr.com+%7C+site%3Asnipt.net+%7C+site%3Atextsnip.com+%7C+site%3Abitpaste.app+%7C+site%3Ajustpaste.it+%7C+site%3Aheypasteit.com+%7C+site%3Ahastebin.com+%7C+site%3Adpaste.org+%7C+site%3Adpaste.com+%7C+site%3Acodepad.org+%7C+site%3Ajsitor.com+%7C+site%3Acodepen.io+%7C+site%3Ajsfiddle.net+%7C+site%3Adotnetfiddle.net+%7C+site%3Aphpfiddle.org+%7C+site%3Aide.geeksforgeeks.org+%7C+site%3Arepl.it+%7C+site%3Aideone.com+%7C+site%3Apaste.debian.net+%7C+site%3Apaste.org+%7C+site%3Apaste.org.ru+%7C+site%3Acodebeautify.org+%7C+site%3Acodeshare.io+%7C+site%3Atrello.com+%22xxPBBDSxx%22"
+    },
+    {
+        "title": "Subdomain Finder subdomainfinder subdomainfinder.c99.nl",
+        "category": "Subdomain",
+        "start": 1,
+        "url": "https://subdomainfinder.c99.nl/search.php?domain=xxPBBDSxx"
+    },
+    {
+        "title": "DNS Dumpster (No Domain Prefill)",
+        "category": "Subdomain",
+        "start": 0,
+        "url": "https://dnsdumpster.com/"
+    },
+    {
+        "title": "Chaos - Project discovery (No Domain Prefill)",
+        "category": "Subdomain",
+        "start": 0,
+        "url": "https://chaos.projectdiscovery.io/#/"
+    },
+    {
+        "title": "MXTool (CName)",
+        "category": "Lookup",
+        "start": 1,
+        "url": "https://mxtoolbox.com/SuperTool.aspx?action=cname%3axxPBBDSxx&run=toolpage"
+    },
+    {
+        "title": "Nmmapper (Port Scanner) (No Domain Prefill)",
+        "category": "Server",
+        "start": 1,
+        "url": "https://www.nmmapper.com/sys/networkmapper/nmap/online-port-scanning"
+    },
+    {
+        "title": "Shodan.io",
+        "category": "Server",
+        "start": 1,
+        "url": "https://www.shodan.io/search?query=xxPBBDSxx"
+    },
+    {
+        "title": "Fofa Application Check",
+        "category": "Server",
+        "start": 1,
+        "url": "https://fofa.so/result?q=xxPBBDSxx"
+    },
+    {
+        "title": "Certificate Check crt.sh",
+        "category": "Server",
+        "start": 1,
+        "url": "https://crt.sh/?q=xxPBBDSxx"
+    },
+    {
+        "title": "What CMS",
+        "category": "Website",
+        "start": 1,
+        "url": "https://whatcms.org/?s=xxPBBDSxx"
+    },
+    {
+        "title": "Website sucuri scan",
+        "category": "Website",
+        "start": 1,
+        "url": "https://sitecheck.sucuri.net/results/xxPBBDSxx"
+    },
+    {
+        "title": "Website robots.txt",
+        "category": "Website",
+        "start": 1,
+        "url": "https://xxPBBDSxx/robots.txt"
+    },
+    {
+        "title": "Website SSL Test",
+        "category": "Website",
+        "start": 1,
+        "url": "https://www.ssllabs.com/ssltest/analyze?d=xxPBBDSxx"
+    },
+    {
+        "title": "Website observatory mozilla",
+        "category": "Website",
+        "start": 1,
+        "url": "https://observatory.mozilla.org/analyze/xxPBBDSxx"
+    },
+    {
+        "title": "Website Urlvoid Scan ",
+        "category": "Website",
+        "start": 0,
+        "url": "https://www.urlvoid.com/scan/xxPBBDSxx/"
+    },
+    {
+        "title": "Website Upguard Security Rating",
+        "category": "Website",
+        "start": 0,
+        "url": "https://www.upguard.com/instant-security-score/report?c=xxPBBDSxx"
+    },
+    {
+        "title": "Website Virustotal (No Domain Prefill)",
+        "category": "Website",
+        "start": 0,
+        "url": "https://www.virustotal.com/gui/home/url"
+    },
+    {
+        "title": "Website Click Hijacking",
+        "category": "Website",
+        "start": 0,
+        "url": "https://clickjacker.io/test?url=xxPBBDSxx"
+    },
+    {
+        "title": "Censys - Domain Check",
+        "category": "Website",
+        "start": 0,
+        "url": "https://search.censys.io/search?resource=hosts&q=xxPBBDSxx"
+    },
+    {
+        "title": "Censys - IPv4 Hosts",
+        "category": "Website",
+        "start": 0,
+        "url": "https://censys.io/ipv4?q=xxPBBDSxx"
+    },
+    {
+        "title": "Domainstats - Valuable information and metrics",
+        "category": "Website",
+        "start": 0,
+        "url": "https://domainstats.com/xxPBBDSxx"
+    },
+    {
+        "title": "Domain Glass - Information and metrics",
+        "category": "Website",
+        "start": 0,
+        "url": "https://domain.glass/xxPBBDSxx"
+    },
+    {
+        "title": "wpsec.com WP Scanner (No Domain Prefill)",
+        "category": "Wordpress Scanner",
+        "start": 0,
+        "url": "https://wpsec.com/"
+    },
+    {
+        "title": "hackertarget.com WP Scanner(No Domain Prefill)",
+        "category": "Wordpress Scanner",
+        "start": 0,
+        "url": "https://hackertarget.com/wordpress-security-scan/"
+    },
+    {
+        "title": "Github Dorking - Code",
+        "category": "Github Dorking",
+        "start": 1,
+        "url": "https://github.com/search?q=xxPBBDSxx&type=code"
+    },
+    {
+        "title": "Github Dorking - Code - SQL",
+        "category": "Github Dorking",
+        "start": 0,
+        "url": "https://github.com/search?q=xxPBBDSxx&type=code&extension:sql&mysql&dump"
+    },
+    {
+        "title": "Github Dorking - Code PYthon Secret",
+        "category": "Github Dorking",
+        "start": 0,
+        "url": "https://github.com/search?q=xxPBBDSxx+language%3Apython+%22secret%22+%22password%22+%22key%22+NOT+support+NOT+docs+NOT+sandbox+NOT+docker+NOT+container+NOT+test+NOT+fake&type=code"
+    },
+    {
+        "title": "Github Dorking - PEM Private",
+        "category": "Github Dorking",
+        "start": 0,
+        "url": "https://github.com/search?q=xxPBBDSxx+extension%3Apem+private"
+    },
+    {
+        "title": "Github Dorking - PEM Private",
+        "category": "Github Dorking",
+        "start": 0,
+        "url": "https://github.com/search?q=xxPBBDSxx+filename:wp-config.php"
+    },
+    {
+        "title": "Github Dorking - Code Secret",
+        "category": "Github Dorking",
+        "start": 1,
+        "url": "https://github.com/search?q=xxPBBDSxx+%22password%22+%22secret%22+NOT+test&type=code"
+    },
+    {
+        "title": "Github Dorking - Code Password",
+        "category": "Github Dorking",
+        "start": 0,
+        "url": "https://github.com/search?q=xxPBBDSxx+filename%3Asecrets+password&type=Code"
+    },
+    {
+        "title": "Wayback Machine Link Check",
+        "category": "Link Check",
+        "start": 1,
+        "url": "https://web.archive.org/web/*/https://xxPBBDSxx/*"
+    },
+    {
+        "title": "Broken Link Check",
+        "category": "Link Check",
+        "start": 1,
+        "url": "https://www.brokenlinkcheck.com/broken-links.php#status"
+    },
+    {
+        "title": "Linkedin - Dork Devops",
+        "category": "Misc",
+        "start": 1,
+        "url": "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22xxPBBDSxx%22+DevOps+-recruiter"
+    },
+	{
+        "title": "Misc - Trello password find",
+        "category": "Misc",
+        "start": 1,
+        "url": "https://www.google.com/search?q=inurl%3Ahttps%3A%2F%2Ftrello.com+AND+intext%3AxxPBBDSxx+intext%3Apassword"
     }
-	,
-	{
-        "title" : "Linkedin - Dork Devops", 
-		"category" : "Misc",
-		"start": 1,
-        "url" : "https://www.google.com/search?q=site%3Alinkedin.com%2Fin+%22xxPBBDSxx%22+DevOps+-recruiter"
-    } 
-	{
-        "title" : "Misc - Trello password find", 
-		"category" : "Misc",
-		"start": 1,
-        "url" : "https://www.google.com/search?q=inurl%3Ahttps%3A%2F%2Ftrello.com+AND+intext%3AxxPBBDSxx+intext%3Apassword"
-    } 
 ]
