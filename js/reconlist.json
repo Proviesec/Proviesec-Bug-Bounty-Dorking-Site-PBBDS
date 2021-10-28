@@ -222,6 +222,12 @@
         "url": "https://domain.glass/xxPBBDSxx"
     },
     {
+        "title": "Wappalyzer - Website technology lookup",
+        "category": "Website",
+        "start": 0,
+        "url": "https://www.wappalyzer.com/lookup/xxPBBDSxx"
+    },
+    {
         "title": "wpsec.com WP Scanner (No Domain Prefill)",
         "category": "Wordpress Scanner",
         "start": 0,
