@@ -9,3 +9,6 @@ https://medium.com/@hackrider/exploiting-devops-get-source-code-d4f5825eb373
 https://mikekitckchan.medium.com/from-google-dorking-to-information-disclosure-5da4f1d771e5
 
 https://hackerone.com/reports/643274
+
+https://vikaran101.medium.com/how-i-hacked-into-one-of-indias-costliest-schools-b67c233b940e
+
