@@ -270,6 +270,12 @@
         "url": "https://github.com/search?q=xxPBBDSxx+filename:wp-config.php"
     },
     {
+        "title": "Github Dorking - Git credentials",
+        "category": "Github Dorking",
+        "start": 0,
+        "url": "https://github.com/search?q=xxPBBDSxx+filename:.git-credentials"
+    },
+    {
         "title": "Github Dorking - Code Secret",
         "category": "Github Dorking",
         "start": 1,
