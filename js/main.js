@@ -61,7 +61,7 @@ function changeList(jsonlist, category) {
     listContainer.appendChild(listElement);
     console.log(category);
     for (var i = 0; i < numberOfListItems; ++i) {
-		if (jsonlist[i]['category'] != category && category != 'all'){
+		if (encodeURI(jsonlist[i]['category']) != category && category != 'all'){
 			continue;
 		}
         // create an item for each one
@@ -90,7 +90,7 @@ function createMenu(menuList) {
 		// create an item for each one
         const listItem = document.createElement('li');
         // Add the item text
-        listItem.innerHTML = "<a href='#' id=\"menuitem"+item+"\" onclick=\"changeList(jsonlist,'"+item+"')\">"+item+"</a>";
+        listItem.innerHTML = "<a href='#' id=\"menuitem"+item+"\" onclick=\"changeList(jsonlist,'"+encodeURI(item)+"')\">"+item+"</a>";
         // Add listItem to the menuElement
         menuElement.appendChild(listItem);
     });
