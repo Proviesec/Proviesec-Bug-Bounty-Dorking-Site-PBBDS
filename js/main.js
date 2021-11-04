@@ -41,6 +41,10 @@ function createList(jsonlist) {
 		}
     }
 	createMenu(menuList,jsonlist);
+	if(window.location.hash) {
+		console.log(window.location.hash);
+		changeList(jsonlist,window.location.hash);
+	} 
 }
 
 function changeList(jsonlist, category) {
