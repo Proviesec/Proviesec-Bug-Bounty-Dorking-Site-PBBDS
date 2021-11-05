@@ -7,6 +7,7 @@ For your Bug Bounty Recon (Mobile First :) )
     - [x] Input read for Domain
     - [x] GitHub file dorking
     - [x] Add tabs / categories 
+    - [x] URL Hash direct link 
     - [ ] Button, without subdomains
     - [ ] input search 
     - [ ] crlf search -> crlf payload -> github
