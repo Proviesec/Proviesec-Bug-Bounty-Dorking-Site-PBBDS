@@ -287,17 +287,29 @@
         "start": 0,
         "url": "https://github.com/search?q=xxPBBDSxx+filename%3Asecrets+password&type=Code"
     },
+	{
+        "title": "Brokenlinkcheck.com (No Domain Prefill)",
+        "category": "Link Check",
+        "start": 1,
+        "url": "https://www.brokenlinkcheck.com/broken-links.php#status"
+    },
+	{
+        "title": "deadkinkchecker.com (No Domain Prefill)",
+        "category": "Link Check",
+        "start": 0,
+        "url": "https://www.deadlinkchecker.com/website-dead-link-checker.asp"
+    },
+	{
+        "title": "Ahrefs Broken Link Check (No Domain Prefill)",
+        "category": "Link Check",
+        "start": 0,
+        "url": "https://ahrefs.com/broken-link-checker"
+    },
     {
         "title": "Wayback Machine Link Check",
         "category": "Link Check",
         "start": 1,
         "url": "https://web.archive.org/web/*/https://xxPBBDSxx/*"
-    },
-    {
-        "title": "Broken Link Check",
-        "category": "Link Check",
-        "start": 1,
-        "url": "https://www.brokenlinkcheck.com/broken-links.php#status"
     },
     {
         "title": "Linkedin - Dork Devops",
