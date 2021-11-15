@@ -8,6 +8,9 @@ inurl:gitlab "company"
 
 https://pentest-tools.com/website-vulnerability-scanning/xss-scanner-online#
 
-GitHub filename:.git-credentials
+GitHub:
+
+ filename:.git-credentials
+
 
 https://www.google.com/search?q=intitle:%20%22access%20log%22%20filetype:%20txt
