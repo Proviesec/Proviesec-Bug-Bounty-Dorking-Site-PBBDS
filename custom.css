@@ -156,7 +156,7 @@ h1 {
             transform: rotate(45deg);
 }
 .container {
-    max-width: 600px;
+    max-width: 800px;
     min-width: 200px;
     margin: 0 auto;
 }
