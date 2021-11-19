@@ -15,13 +15,12 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Open many URLs tabs (WordPress admin pages) 
     - [ ] Select multi "or" for Google Dorking
     - [ ] Select multi "or" for Github Dorking
-    - [ ] Add todo list 
+    - [ ] Add todo list, Checklist editor, for small, large targets...
     - [ ] good xss payload copy page from proviesec
     - [ ] xss configuration (jquery....) 
     - [ ] Good bug bounty portal list 
     - [ ] Scanner with ajax calls? 
     - [ ] Iframe test site (Click hjacking) 
-    - [ ] Checklist editor, for small, large targets... 
     
 <br />
 <p align="center">
