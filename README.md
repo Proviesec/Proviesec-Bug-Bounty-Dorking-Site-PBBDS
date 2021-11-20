@@ -21,7 +21,9 @@ For your Bug Bounty Recon (Mobile First :) )
     - [ ] Good bug bounty portal list 
     - [ ] Scanner with ajax calls? 
     - [ ] Iframe test site (Click hjacking) 
-    
+
+## How It Works   
+
 <br />
 <p align="center">
   <a href="">
