@@ -4,7 +4,7 @@
 </a>
 For your Bug Bounty Recon (Mobile First :) ) 
 
-:star: Star us on GitHub — it motivates a lot!
+:star: Star us on GitHub — it motivates a lot! :star:
 
     - [x] Dynamic json file for li list
     - [x] Input read for Domain
