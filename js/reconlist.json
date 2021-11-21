@@ -282,6 +282,12 @@
         "url": "https://github.com/search?q=xxPBBDSxx+%22password%22+%22secret%22+NOT+test&type=code"
     },
     {
+        "title": "Github Dorking - Code filenam:config",
+        "category": "Github Dorking",
+        "start": 1,
+        "url": "https://github.com/search?q=filename%3Aconfig+xxPBBDSxx+password&type=code"
+    },
+    {
         "title": "Github Dorking - Code Password",
         "category": "Github Dorking",
         "start": 0,
