@@ -1,6 +1,6 @@
 # Provies Bug-Bounty-Dorking-Site (PBBDS)
 <a href="https://proviesec.org/">
-    <img src="https://proviesec.org/iamges/logo.png" alt="Proviesec logo" title="Proviesec" align="right" height="60" />
+    <img src="https://avatars.githubusercontent.com/u/92156402?s=400&u=7fe0dbb9085a37818ee8c2b061432a9a69cbff42&v=4" alt="Proviesec logo" title="Proviesec" align="right" height="60" />
 </a>
 For your Bug Bounty Recon (Mobile First :) ) 
 
