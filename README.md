@@ -11,6 +11,8 @@ For your Bug Bounty Recon (Mobile First :) )
     - [x] Dynamic json file for li list
     - [x] Input read for Domain
     - [x] GitHub file dorking
+    - [x] Google dorking
+    - [x] Subdomain search
     - [x] Add tabs / categories 
     - [x] URL Hash direct link 
     - [ ] Button, without subdomains
