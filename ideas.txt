@@ -5,5 +5,3 @@ site:*.atlassian.net "company"
 inurl:gitlab "company"
 
 https://pentest-tools.com/website-vulnerability-scanning/xss-scanner-online#
-
-https://www.google.com/search?q=intitle:%20%22access%20log%22%20filetype:%20txt
