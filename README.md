@@ -17,7 +17,7 @@ For your Bug Bounty Recon (Mobile First :) )
     - [x] Subdomain search
     - [x] Add tabs / categories 
     - [x] URL Hash direct link 
-    - [ ] Button, without subdomains
+    - [ ] Button - without subdomains
     - [ ] crlf search -> crlf payload -> github
     - [ ] ajax functions test / browser scan 
     - [ ] Open many URLs tabs (WordPress admin pages) 
