@@ -9,6 +9,10 @@ For your Bug Bounty Recon (Mobile First :) )
 
 <a href="https://www.buymeacoffee.com/proviesec" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
+## What is still missing? 
+Just write me on Twitter  
+https://twitter.com/proviesec
+
 ## ToDo
     - [x] Dynamic json file for li list
     - [x] Input read for Domain
