@@ -33,6 +33,7 @@ https://twitter.com/proviesec
     - [ ] Good bug bounty portal list 
     - [ ] Scanner with ajax calls? 
     - [ ] Iframe test site (Click hjacking) 
+    - [ ] Payload lists
 
 ## How It Works   
 
