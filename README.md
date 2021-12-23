@@ -10,30 +10,29 @@ For your Bug Bounty Recon (Mobile First :) )
 <a href="https://www.buymeacoffee.com/proviesec" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## What is still missing? 
-Just write me on Twitter  
-https://twitter.com/proviesec
+Just write me on Twitter: https://twitter.com/proviesec
 
 ## ToDo
-    - [x] Dynamic json file for li list
-    - [x] Input read for Domain
-    - [x] GitHub file dorking
-    - [x] Google dorking
-    - [x] Subdomain search
-    - [x] Add tabs / categories 
-    - [x] URL Hash direct link 
-    - [ ] Button - without subdomains
-    - [ ] crlf search -> crlf payload -> github
-    - [ ] ajax functions test / browser scan 
-    - [ ] Open many URLs tabs (WordPress admin pages) 
-    - [ ] Select multi "or" for Google Dorking
-    - [ ] Select multi "or" for Github Dorking
-    - [ ] Add todo list, Checklist editor, for small, large targets...
-    - [ ] good xss payload copy page from proviesec
-    - [ ] xss configuration (jquery....) 
-    - [ ] Good bug bounty portal list 
-    - [ ] Scanner with ajax calls? 
-    - [ ] Iframe test site (Click hjacking) 
-    - [ ] Payload lists
+- [x] Dynamic json file for li list
+- [x] Input read for Domain
+- [x] GitHub file dorking
+- [x] Google dorking
+- [x] Subdomain search
+- [x] Add tabs / categories
+- [x] URL Hash direct link
+- [ ] Button - without subdomains
+- [ ] crlf search -> crlf payload -> github
+- [ ] ajax functions test / browser scan
+- [ ] Open many URLs tabs (WordPress admin pages)
+- [ ] Select multi "or" for Google Dorking
+- [ ] Select multi "or" for Github Dorking
+- [ ] Add todo list, Checklist editor, for small, large targets...
+- [ ] good xss payload copy page from proviesec
+- [ ] xss configuration (jquery....)
+- [ ] Good bug bounty portal list
+- [ ] Scanner with ajax calls?
+- [ ] Iframe test site (Click hjacking)
+- [ ] Payload lists
 
 ## How It Works   
 
