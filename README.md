@@ -32,7 +32,6 @@ Just write me on Twitter: https://twitter.com/proviesec
 - [ ] good xss payload copy page from proviesec
 - [ ] xss configuration (jquery....)
 - [ ] Good bug bounty portal list
-- [ ] Scanner with ajax calls?
 - [ ] Iframe test site (Click hjacking)
 - [ ] Payload lists
 
