@@ -1,4 +1,3 @@
-site:redacted.com inurl:admin "@gmail.com"
 site:*.atlassian.net "company"
 inurl:gitlab "company"
 https://pentest-tools.com/website-vulnerability-scanning/xss-scanner-online#
