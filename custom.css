@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 body {
     width: 100%;
@@ -22,7 +22,6 @@ h1 {
 
     font-size: 30px;
     line-height: 1;
-
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -197,7 +196,6 @@ p{
   transition: opacity 0.2s ease-in-out, filter 0.2s ease-in-out,
     box-shadow 0.1s ease-in-out;
 }
-
 .input-group:hover {
   box-shadow: 0 14px 44px 0 rgba(0, 0, 0, 0.077);
 }
@@ -218,11 +216,9 @@ p{
   font-family: "Oxygen", sans-serif;
   transition: top 0.1s ease-in-out;
 }
-
 .input-group input::placeholder {
   color: rgba(0, 0, 0, 0);
 }
-
 .input-group input:focus,
 .input-group input:not(:placeholder-shown) {
   top: 17px;
@@ -242,10 +238,7 @@ p{
   transition: all 0.1s ease-in-out;
   cursor: text;
 }
-.github-link {
-	color: #ffffff;
-}
-.twitter-link {
+.social-link {
 	color: #ffffff;
 }
 .input-group input:focus + label,
