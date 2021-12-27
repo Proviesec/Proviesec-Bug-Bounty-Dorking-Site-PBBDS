@@ -1,3 +1,4 @@
+let withSubdomain = true;
 
 function loadJSON(callback) {   
 
@@ -11,6 +12,15 @@ function loadJSON(callback) {
           }
     };
     xobj.send(null);  
+}
+
+function withoutSubdomain() {
+    var checkBox = document.getElementById("myCheck");
+    if (checkBox.checked == true){
+       	withSubdomain = true;
+    } else {
+    	withSubdomain = true;
+    }
 }
 
 function createList(jsonlist) {
