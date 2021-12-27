@@ -23,6 +23,15 @@ function withoutSubdomain() {
     }
 }
 
+function createIframe() {
+    var url = findGetParameter(url);
+    var ifrm = document.createElement('iframe');
+    ifrm.setAttribute('id', 'ifrm'); // assign an id
+    var el = document.getElementById('reconlist');
+    el.parentNode.insertBefore(ifrm, el);
+    ifrm.setAttribute('src', url);
+}
+
 function createList(jsonlist) {
 
     // Set up a loop that goes through the items in listItems one at a time
@@ -108,11 +117,15 @@ function createMenu(menuList) {
 
 // import the array which acts as a data source for the list
 function makeList() {
-    loadJSON(function(response) {
-        // Parse JSON string into object
-        jsonlist = JSON.parse(response);
-        createList(jsonlist);
-    });
+    if(findGetParameter(iframe)) {
+        createIframe()
+    } else {
+        loadJSON(function(response) {
+           // Parse JSON string into object
+           jsonlist = JSON.parse(response);
+           createList(jsonlist);
+        });
+   }
 }
 
 function replacePlaceholder(listid) {
@@ -122,6 +135,15 @@ function replacePlaceholder(listid) {
 	window.open(x.replaceAll("xxPBBDSxx", domain), '_blank');
 	
 }
-
-
-
+function findGetParameter(parameterName) {
+    var result = null,
+        tmp = [];
+    location.search
+        .substr(1)
+        .split("&")
+        .forEach(function (item) {
+          tmp = item.split("=");
+          if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+        });
+    return result;
+}
