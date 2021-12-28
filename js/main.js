@@ -24,7 +24,7 @@ function withoutSubdomain() {
 }
 
 function createIframe() {
-    var url = findGetParameter(url);
+    var url = findGetParameter('url');
     var ifrm = document.createElement('iframe');
     ifrm.setAttribute('id', 'ifrm'); // assign an id
     var el = document.getElementById('reconlist');
@@ -117,7 +117,7 @@ function createMenu(menuList) {
 
 // import the array which acts as a data source for the list
 function makeList() {
-    if(findGetParameter(iframe)) {
+    if(findGetParameter('iframe')) {
         createIframe()
     } else {
         loadJSON(function(response) {
