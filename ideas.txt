@@ -1,3 +1,2 @@
 site:*.atlassian.net "company"
 inurl:gitlab "company"
-https://pentest-tools.com/website-vulnerability-scanning/xss-scanner-online#
