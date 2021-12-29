@@ -234,6 +234,12 @@
         "url": "https://www.wappalyzer.com/lookup/xxPBBDSxx"
     },
     {
+        "title": "XSS Scanner - (No Domain Prefill)",
+        "category": "XSS",
+        "start": 1,
+        "url": "https://pentest-tools.com/website-vulnerability-scanning/xss-scanner-online"
+    },
+    {
         "title": "wpsec.com WP Scanner (No Domain Prefill)",
         "category": "Wordpress Scanner",
         "start": 0,
