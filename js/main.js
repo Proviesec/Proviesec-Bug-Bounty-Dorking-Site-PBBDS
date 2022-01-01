@@ -59,10 +59,10 @@ function createList(jsonlist) {
 			menuList.push(jsonlist[i]['category']);
 		}
     }
-	createMenu(menuList,jsonlist);
-	if(window.location.hash) {
-		changeList(jsonlist,window.location.hash.substring(1));
-	} 
+    createMenu(menuList,jsonlist);
+    if(window.location.hash) {
+	changeList(jsonlist,window.location.hash.substring(1));
+    } 
 }
 
 function changeList(jsonlist, category) {
@@ -129,9 +129,9 @@ function makeList() {
 }
 
 function replacePlaceholder(listid) {
-
 	var x = document.getElementById(listid).href;
 	var domain = document.getElementById('domain').value;
+        // withSubdomain
 	window.open(x.replaceAll("xxPBBDSxx", domain), '_blank');
 	
 }
