@@ -23,7 +23,6 @@ Just write me on Twitter: https://twitter.com/proviesec
 - [x] Add tabs / categories
 - [x] URL Hash direct link
 - [ ] CORS Test
-- [ ] API Ideas
 - [ ] Button - without subdomains
 - [ ] crlf search -> crlf payload -> github
 - [ ] ajax functions test / browser scan
