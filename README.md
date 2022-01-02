@@ -30,7 +30,6 @@ Just write me on Twitter: https://twitter.com/proviesec
 - [ ] Select multi "or" for Google Dorking
 - [ ] Select multi "or" for Github Dorking
 - [ ] Add todo list, Checklist editor, for small, large targets...
-- [ ] good xss payload copy page from proviesec
 - [ ] xss configuration (jquery....)
 - [ ] Good bug bounty portal list
 - [ ] Iframe test site (Click hjacking)
