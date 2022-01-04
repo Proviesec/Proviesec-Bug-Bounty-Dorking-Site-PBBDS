@@ -36,6 +36,7 @@ Just write me on Twitter: https://twitter.com/proviesec
 - [ ] Payload lists
 
 ## How It Works   
+Input your Domain:
 ![image](https://user-images.githubusercontent.com/6010786/147967095-591b24f0-35aa-4a1f-98ff-88771cf498fa.png)
 
 <br />
