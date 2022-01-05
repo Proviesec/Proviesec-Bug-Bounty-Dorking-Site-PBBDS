@@ -24,7 +24,7 @@ Just write me on Twitter: https://twitter.com/proviesec
 - [x] URL Hash direct link
 - [ ] CORS Test
 - [ ] Button - without subdomains
-- [ ] crlf search -> crlf payload -> github
+- [ ] crlf search -> crlf payload -> github -> + Tutorial
 - [ ] ajax functions test / browser scan
 - [ ] Open many URLs tabs (WordPress admin pages)
 - [ ] Select multi "or" for Google Dorking
