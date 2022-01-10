@@ -3,72 +3,84 @@
         "title": "Google Dorking - intitle:index.of",
         "category": "Google Dorking",
         "start": 1,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:index.of"
     },
     {
         "title": "Google Dorking - phpMyAdmin",
         "category": "Google Dorking",
         "start": 0,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site%3AxxPBBDSxx+%22phpMyAdmin%22"
     },
     {
         "title": "Google Dorking - phpinfo()",
         "category": "Google Dorking",
         "start": 0,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:phpinfo%20\"published by the PHP Group\""
     },
     {
         "title": "Google Dorking - Files",
         "category": "Google Dorking",
         "start": 1,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx%20ext:xml%20|%20ext:conf%20|%20ext:cnf%20|%20ext:reg%20|%20ext:inf%20|%20ext:rdp%20|%20ext:cfg%20|%20ext:txt%20|%20ext:ora%20|%20ext:ini"
     },
     {
         "title": "Google Dorking - Login / Register",
         "category": "Google Dorking",
         "start": 1,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site%3AxxPBBDSxx++intitle%3Alogin+%7C+inurl%3Alogin+%7C+intitle%3Aregister+%7C+inurl%3Aregister"
     },
     {
         "title": "Google Dorking - Redirects",
         "category": "Google Dorking",
         "start": 1,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx%20inurl:redir%20|%20inurl:url%20|%20inurl:redirect%20|%20inurl:redirect%20|%20inurl:return%20|%20inurl:src=http%20|%20inurl:r=http"
     },
     {
         "title": "Google Dorking - Log Username",
         "category": "Google Dorking",
         "start": 1,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx%20allintext:username%20filetype:log"
     },
     {
         "title": "Google Dorking - Find Wordpress",
         "category": "Google Dorking",
         "start": 0,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx+inurl:wp-+|+inurl:wp-content+|+inurl:plugins+|+inurl:uploads+|+inurl:themes+|+inurl:download"
     },
     {
         "title": "Google Dorking - Find dev things",
         "category": "Google Dorking",
         "start": 0,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx+inurl:dev"
     },
     {
         "title": "Google Dorking - Database Files",
         "category": "Google Dorking",
         "start": 1,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx+ext:sql+|+ext:dbf+|+ext:mdb"
     },
     {
         "title": "Google Dorking - SQL errors",
         "category": "Google Dorking",
         "start": 0,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx+intext:%22sql+syntax+near%22+|+intext:%22syntax+error+has+occurred%22+|+intext:%22incorrect+syntax+near%22+|+intext:%22unexpected+end+of+SQL+command%22+|+intext:%22Warning:+mysql_connect()%22+|+intext:%22Warning:+mysql_query()%22+|+intext:%22Warning:+pg_connect()%22"
     },
     {
         "title": "Google Dorking - Database Files",
         "category": "Google Dorking",
         "start": 1,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx+ext:doc+|+ext:docx+|+ext:odt+|+ext:pdf+|+ext:rtf+|+ext:sxw+|+ext:psw+|+ext:ppt+|+ext:pptx+|+ext:pps+|+ext:csv"
     },
     {
