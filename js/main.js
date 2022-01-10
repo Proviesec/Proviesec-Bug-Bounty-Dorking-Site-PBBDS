@@ -132,6 +132,7 @@ function replacePlaceholder(listid) {
 	var x = document.getElementById(listid).href;
 	var domain = document.getElementById('domain').value;
         // withSubdomain
+	
 	window.open(x.replaceAll("xxPBBDSxx", domain), '_blank');
 	
 }
