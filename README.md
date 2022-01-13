@@ -23,7 +23,7 @@ Just write me on Twitter: https://twitter.com/proviesec
 - [x] Add tabs / categories
 - [x] URL Hash direct link
 - [ ] CORS Test
-- [ ] Button - without subdomains
+- [x] Button - without subdomains
 - [ ] crlf search -> crlf payload -> github -> + Tutorial
 - [ ] ajax functions test / browser scan
 - [ ] Open many URLs tabs (WordPress admin pages)
