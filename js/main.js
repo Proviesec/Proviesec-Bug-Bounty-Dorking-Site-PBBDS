@@ -46,18 +46,18 @@ function createList(jsonlist) {
     menuList = [];
   
     for (var i = 0; i < numberOfListItems; ++i) {
-		if (jsonlist[i]['start'] != 1){
-			continue;
-		}
+	if (jsonlist[i]['start'] != 1){
+		continue;
+	}
         // create an item for each one
         const listItem = document.createElement('li');
         // Add the item text
         listItem.innerHTML = "<a class='after' href='"+jsonlist[i]['url']+"' onclick=\"replacePlaceholder('listitem"+i+"'); return false;\"  id=\"listitem"+i+"\" target=\"_blank\">"+jsonlist[i]['title']+"</a>";
         // Add listItem to the listElement
         listElement.appendChild(listItem);	
-		if(menuList.indexOf(jsonlist[i]['category']) === -1) {
-			menuList.push(jsonlist[i]['category']);
-		}
+	if(menuList.indexOf(jsonlist[i]['category']) === -1) {
+		menuList.push(jsonlist[i]['category']);
+	}
     }
     createMenu(menuList,jsonlist);
     if(window.location.hash) {
@@ -69,10 +69,10 @@ function changeList(jsonlist, category) {
 
     // Set up a loop that goes through the items in listItems one at a time
     numberOfListItems = jsonlist.length;
-	var el = document.getElementById('reconlist').getElementsByTagName('ul')[0];
-	if(el) {
-		el.remove();
-	}
+    var el = document.getElementById('reconlist').getElementsByTagName('ul')[0];
+    if(el) {
+	el.remove();
+    }
 
     listContainer = document.getElementById('reconlist');
     // Make the list
