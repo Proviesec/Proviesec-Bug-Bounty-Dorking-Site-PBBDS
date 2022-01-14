@@ -87,18 +87,21 @@
         "title": "Google Dorking - Backup Files",
         "category": "Google Dorking",
         "start": 1,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx+ext:bkf+|+ext:bkp+|+ext:bak+|+ext:old+|+ext:backup"
     },
     {
         "title": "Google Dorking - Admin Login?",
         "category": "Google Dorking",
         "start": 0,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site%3A%22xxPBBDSxx%22+intitle%3Aadmin+intext%3Alogin+intext%3Ausername+%7C+email+intext%3Apassword+-help+-docs+-support+-news"
     },
     {
         "title": "Google Dorking - Backdoors?",
         "category": "Google Dorking",
         "start": 0,
+	"subdomain": 1,
         "url": "https://www.google.com/search?q=site:xxPBBDSxx+inurl:shell+|+inurl:backdoor+|+inurl:wso+|+inurl:cmd+|+shadow+|+passwd+|+boot.ini+|+inurl:backdoor"
     },
     {
