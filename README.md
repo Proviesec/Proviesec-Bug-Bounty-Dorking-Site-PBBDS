@@ -36,7 +36,6 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] Payload lists from proviesec
 - [ ] Search on the website 
 
-
 ## How It Works   
 Input your Domain, you don't have to click enter:
 ![image](https://user-images.githubusercontent.com/6010786/147967095-591b24f0-35aa-4a1f-98ff-88771cf498fa.png)
@@ -60,3 +59,4 @@ Needless to mention, please use this tool very very carefully. The authors won't
     <a href="https://github.com/provie/Provies-Bug-Bounty-Dorking-Site-PBBDS/discussions/new">Request Feature/Ideas</a>
   </p>
 </p>
+
