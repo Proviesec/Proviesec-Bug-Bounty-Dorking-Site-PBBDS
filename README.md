@@ -34,6 +34,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] Good bug bounty portal list
 - [ ] Iframe test site (Click hjacking)
 - [ ] Payload lists from proviesec
+- [ ] Load the payload lists
 - [ ] Search on the website 
 
 ## How It Works   
