@@ -157,6 +157,9 @@ function getDorksFromGithub() {
        response.text().then(function(text) {
           storedText = text;
           console.log(storedText);
+	  var obj = {"Google Dorking" : "", "category" : "Google Dorking", "start": 1,"subdomain": 1,"url": "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:index.of"}
+          var s = JSON.stringify(obj)
+	  return s;
        });
    });
 }
