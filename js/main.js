@@ -148,3 +148,16 @@ function findGetParameter(parameterName) {
         });
     return result;
 }
+
+
+function getDorksFromGithub() {
+   var url_googledorksopenredirect = 'https://raw.githubusercontent.com/Proviesec/google-dorks/master/google-dorks-open-redirect.txt';
+   var storedText;
+   fetch(url_googledorksopenredirect).then(function(response) {
+       response.text().then(function(text) {
+          storedText = text;
+          console.log(storedText);
+       });
+   });
+}
+
