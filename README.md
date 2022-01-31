@@ -1,6 +1,5 @@
 # Provies Bug-Bounty-Dorking-Site (PBBDS)
 
-
 <a href="https://provie.github.io/Provies-Bug-Bounty-Dorking-Site-PBBDS/"><strong>Explore the Site »</strong></a>
 
 For your Bug Bounty Recon (Mobile First :) ) 
@@ -33,7 +32,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] xss configuration (jquery....)
 - [ ] Good bug bounty portal list
 - [ ] Iframe test site (Click hjacking)
-- [ ] Payload lists from proviesec
+- [x] Payload lists from proviesec
 - [ ] Load the payload lists
 - [ ] Search on the website 
 
