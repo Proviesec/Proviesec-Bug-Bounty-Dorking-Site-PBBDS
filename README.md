@@ -22,6 +22,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [x] Add tabs / categories
 - [x] URL Hash direct link
 - [x] Button - without subdomains
+- [x] Payload lists from proviesec
 - [ ] CORS Test
 - [ ] crlf search -> crlf payload -> github -> + Tutorial
 - [ ] ajax functions test / browser scan
@@ -32,7 +33,6 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] xss configuration (jquery....)
 - [ ] Good bug bounty portal list
 - [ ] Iframe test site (Click hjacking)
-- [x] Payload lists from proviesec
 - [ ] Load the payload lists
 - [ ] Search on the website 
 
