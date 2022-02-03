@@ -1,7 +1,6 @@
 let withSubdomain = true;
 
 function loadJSON(callback) {   
-
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
     xobj.open('GET', 'js/reconlist.json', true); // Replace 'my_data' with the path to your file
@@ -153,7 +152,6 @@ function getDorksFromGithub() {
    var url_googledorksopenredirect = 'https://raw.githubusercontent.com/Proviesec/google-dorks/master/google-dorks-open-redirect.txt';
    fetch(url_googledorksopenredirect).then(function(response) {
        response.text().then(function(text) {
-          console.log(text);
 	  var obj = {"Google Dorking" : "", "category" : "Google Dorking", "start": 1,"subdomain": 1,"url": "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:index.of"}
           var s = JSON.stringify(obj)
 	  return s;
