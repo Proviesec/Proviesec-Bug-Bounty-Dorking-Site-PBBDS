@@ -152,7 +152,7 @@ function getDorksFromGithub() {
    var url_googledorksopenredirect = 'https://raw.githubusercontent.com/Proviesec/google-dorks/master/google-dorks-open-redirect.txt';
    fetch(url_googledorksopenredirect).then(function(response) {
        response.text().then(function(text) {
-	  var obj = {"Google Dorking" : "", "category" : "Google Dorking", "start": 1,"subdomain": 1,"url": "https://www.google.com/search?q=site:xxPBBDSxx%20intitle:index.of"}
+	  var obj = {"Google Dorking" : "", "category" : "Google Dorking", "start": 1,"subdomain": 1,"url": "https://www.google.com/search?q=site:xxPBBDSxx%20"+text}
           var s = JSON.stringify(obj)
 	  return s;
        });
