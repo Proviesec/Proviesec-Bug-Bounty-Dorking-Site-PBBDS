@@ -34,7 +34,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] Good bug bounty portal list
 - [ ] Iframe test site (Click hjacking)
 - [ ] Load the payload lists
-- [ ] Search on the website 
+- [ ] Search on the website (input field) 
 
 ## How It Works   
 Input your Domain, you don't have to click enter:
