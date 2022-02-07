@@ -23,13 +23,13 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [x] URL Hash direct link
 - [x] Button - without subdomains
 - [x] Payload lists from proviesec
+- [ ] Add todo list, Checklist editor, for small, large targets...
 - [ ] CORS Test
 - [ ] crlf search -> crlf payload -> github -> + Tutorial
 - [ ] ajax functions test / browser scan
 - [ ] Open many URLs tabs (WordPress admin pages)
 - [ ] Select multi "or" for Google Dorking
 - [ ] Select multi "or" for Github Dorking
-- [ ] Add todo list, Checklist editor, for small, large targets...
 - [ ] xss configuration (jquery....)
 - [ ] Good bug bounty portal list
 - [ ] Iframe test site (Click hjacking)
