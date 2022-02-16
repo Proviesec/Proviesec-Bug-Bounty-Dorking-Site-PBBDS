@@ -1,6 +1,8 @@
 // Hackerone //
+## Google Dorks ##
 https://hackerone.com/reports/783622
 https://hackerone.com/reports/643274
+
 
 // Writeups //
 https://proviesec.medium.com/broken-link-hijacking-404-google-play-store-xxx-bounty-96e79a8dfd71
@@ -9,5 +11,3 @@ https://infosecwriteups.com/accessing-grofers-grafana-instance-using-shodan-52c5
 https://medium.com/@hackrider/exploiting-devops-get-source-code-d4f5825eb373
 https://mikekitckchan.medium.com/from-google-dorking-to-information-disclosure-5da4f1d771e5
 https://vikaran101.medium.com/how-i-hacked-into-one-of-indias-costliest-schools-b67c233b940e
-
-// Links //
