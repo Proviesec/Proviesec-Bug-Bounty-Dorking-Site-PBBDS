@@ -50,7 +50,6 @@ Needless to mention, please use this tool very very carefully. The authors won't
 <p align="center">
   <a href="">
   </a>
-  <h3 align="center">Best-README-Template</h3>
   <p align="center">
     <br />
     <a href="https://provie.github.io/Provies-Bug-Bounty-Dorking-Site-PBBDS/"><strong>Explore the Site »</strong></a>
