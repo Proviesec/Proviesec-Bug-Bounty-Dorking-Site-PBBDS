@@ -255,6 +255,12 @@
         "url": "https://pentest-tools.com/website-vulnerability-scanning/xss-scanner-online"
     },
     {
+        "title": "SQL Injection Scanner - (No Domain Prefill)",
+        "category": "SQL Injection",
+        "start": 1,
+        "url": "https://pentest-tools.com/website-vulnerability-scanning/sql-injection-scanner-online"
+    },
+    {
         "title": "wpsec.com WP Scanner (No Domain Prefill)",
         "category": "Wordpress Scanner",
         "start": 0,
