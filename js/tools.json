@@ -1,1 +1,7 @@
-{} 
+[
+   {
+        "title": "Burp Suite - the Best Security Scanner",
+        "category": "Scanner",
+        "url": "https://portswigger.net/burp/communitydownload"
+    },
+]
