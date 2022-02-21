@@ -15,7 +15,7 @@ function loadJSON(callback) {
 
 function withoutSubdomain() {
     var checkBox = document.getElementById("myCheck");
-    if (checkBox.checked == true){
+    if (checkBox.checked == true) {
        	withSubdomain = true;
     } else {
     	withSubdomain = true;
@@ -32,16 +32,13 @@ function createIframe() {
 }
 
 function createList(jsonlist) {
-
     // Set up a loop that goes through the items in listItems one at a time
     numberOfListItems = jsonlist.length;
-
     listContainer = document.getElementById('reconlist');
    
     // Make the list
     listElement = document.createElement('ul');
     listContainer.appendChild(listElement);
-
     menuList = [];
   
     for (var i = 0; i < numberOfListItems; ++i) {
@@ -131,7 +128,6 @@ function replacePlaceholder(listid) {
 	var x = document.getElementById(listid).href;
 	var domain = document.getElementById('domain').value;
         // withSubdomain
-	
 	window.open(x.replaceAll("xxPBBDSxx", domain), '_blank');
 	
 }
