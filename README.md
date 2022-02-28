@@ -35,7 +35,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] Good bug bounty portal list
 - [ ] Iframe test site (Click hjacking)
 - [ ] Load the payload lists
-- [ ] best tool Selector 
+- [ ] best tool Selector (Decision Tree)
 
 
 
