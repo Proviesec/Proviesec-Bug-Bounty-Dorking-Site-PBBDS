@@ -4,6 +4,7 @@ https://hackerone.com/reports/783622
 https://hackerone.com/reports/643274
 ## CORS ##
 ## Broken Links ##
+## Github Dorks
 
 // Writeups //
 https://proviesec.medium.com/broken-link-hijacking-404-google-play-store-xxx-bounty-96e79a8dfd71
