@@ -23,9 +23,9 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [x] URL Hash direct link
 - [x] Button - without subdomains
 - [x] Payload lists from proviesec
+- [x] CORS Test
 - [ ] Search on the website (input field) 
 - [ ] Add todo list, Checklist editor, for small, large targets...
-- [x] CORS Test
 - [ ] crlf search -> crlf payload -> github -> + Tutorial
 - [ ] ajax functions test / browser scan
 - [ ] Open many URLs tabs (WordPress admin pages)
