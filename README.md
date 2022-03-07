@@ -34,7 +34,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] xss configuration (jquery....)
 - [ ] Good bug bounty portal list
 - [ ] Iframe test site (Click hjacking)
-- [ ] Load the payload lists
+- [ ] Load the payload lists from proviesec
 - [ ] best tool Selector (Decision Tree)
 
 
