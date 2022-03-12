@@ -25,18 +25,21 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [x] Payload lists from proviesec
 - [x] CORS Test
 - [ ] Search on the website (input field) 
-- [ ] Add todo list, Checklist editor, for small, large targets...
-- [ ] crlf search -> crlf payload -> github -> + Tutorial
 - [ ] ajax functions test / browser scan
 - [ ] Open many URLs tabs (WordPress admin pages)
 - [ ] Select multi "or" for Google Dorking
 - [ ] Select multi "or" for Github Dorking
+
+- [ ] Iframe test site (Click hjacking)
+
+## Nice To Have
+
 - [ ] xss configuration (jquery....)
 - [ ] Good bug bounty portal list
-- [ ] Iframe test site (Click hjacking)
 - [ ] Load the payload lists from proviesec
 - [ ] best tool Selector (Decision Tree)
-
+- [ ] Add todo list, Checklist editor, for small, large targets...
+- [ ] crlf search -> crlf payload -> github -> + Tutorial
 
 ## How It Works   
 Input your Domain, you don't have to click enter:
