@@ -60,7 +60,7 @@ function createList(jsonlist) {
 	changeList(jsonlist,window.location.hash.substring(1));
     } 
 }
-
+// Liste in the middle
 function changeList(jsonlist, category) {
 
     // Set up a loop that goes through the items in listItems one at a time
@@ -88,7 +88,7 @@ function changeList(jsonlist, category) {
         listElement.appendChild(listItem);	
     }
 }
-
+// left menu
 function createMenu(menuList) {
     menuContainer = document.getElementById('menuCategoryList');
     // Make the menu
@@ -144,6 +144,7 @@ function findGetParameter(parameterName) {
     return result;
 }
 
+// function to get the dorks from github repo
 function getDorksFromGithub() {
    var url_googledorksopenredirect = 'https://raw.githubusercontent.com/Proviesec/google-dorks/master/google-dorks-open-redirect.txt';
    fetch(url_googledorksopenredirect).then(function(response) {
