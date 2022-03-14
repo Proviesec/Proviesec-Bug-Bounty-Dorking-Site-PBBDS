@@ -9,4 +9,9 @@
         "category": "Scanner",
         "url": "https://portswigger.net/burp/communitydownload"
     },
+    {
+        "title": "ZAP - Security Scanner",
+        "category": "Scanner",
+        "url": "https://portswigger.net/burp/communitydownload"
+    },
 ]
