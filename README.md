@@ -34,7 +34,6 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 ## Nice To Have
 
 - [ ] xss configuration (jquery....)
-- [ ] Good bug bounty portal list
 - [ ] Load the payload lists from proviesec
 - [ ] best tool Selector (Decision Tree)
 - [ ] Add todo list, Checklist editor, for small, large targets...
