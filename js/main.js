@@ -112,7 +112,7 @@ function createMenu(menuList) {
 }
 
 // import the array which acts as a data source for the list
-function makeList() {
+function startSite() {
     if(findGetParameter('iframe')) {
         createIframe()
     } else {
