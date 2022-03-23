@@ -113,8 +113,10 @@ function createMenu(menuList) {
 
 // import the array which acts as a data source for the list
 function startSite() {
-    if(findGetParameter('iframe')) {
-        createIframe()
+    if(findGetParameter('mode')) {
+	if(findGetParameter('mode')=='iframe') {
+		createIframe()
+	}
     } else {
         loadJSON(function(response) {
            // Parse JSON string into object
