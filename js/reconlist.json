@@ -240,7 +240,19 @@
         "title": "PBBDS Iframe Test",
         "category": "Website",
         "start": 1,
-        "url": "?iframe=true&url=xxPBBDSxx"
+        "url": "?mode=iframe&url=xxPBBDSxx"
+    },
+    {
+        "title": "PBBDS Dir - Recon Test",
+        "category": "Website",
+        "start": 1,
+        "url": "?mode=dir&url=xxPBBDSxx"
+    },
+	{
+        "title": "PBBDS File - Recon Test",
+        "category": "Website",
+        "start": 1,
+        "url": "?mode=file&url=xxPBBDSxx"
     },
     {
         "title": "Wappalyzer - Website technology lookup",
