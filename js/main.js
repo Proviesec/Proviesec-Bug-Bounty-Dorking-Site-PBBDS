@@ -118,6 +118,9 @@ function startSite() {
            case 'iframe':
 		createIframe()
 	   break;
+           case 'dir':
+	        openSiteinIframe('dir');
+	   break;
 	 }
     } else {
         loadJSON(function(response) {
