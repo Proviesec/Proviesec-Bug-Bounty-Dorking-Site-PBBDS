@@ -55,7 +55,6 @@ function createList(jsonlist) {
 		menuList.push(jsonlist[i]['category']);
 	}
     }
-    createMenu(menuList,jsonlist);
     if(window.location.hash) {
 	changeList(jsonlist,window.location.hash.substring(1));
     } 
@@ -89,7 +88,19 @@ function changeList(jsonlist, category) {
     }
 }
 // left menu
-function createMenu(menuList) {
+function createMenu(jsonlist) {
+    numberOfListItems = jsonlist.length;
+    menuList = [];
+  
+    for (var i = 0; i < numberOfListItems; ++i) {
+	if (jsonlist[i]['start'] != 1){
+		continue;
+	}
+	if(menuList.indexOf(jsonlist[i]['category']) === -1) {
+		menuList.push(jsonlist[i]['category']);
+	}
+    }
+	
     menuContainer = document.getElementById('menuCategoryList');
     // Make the menu
     menuElement = document.createElement('ul');
@@ -123,13 +134,20 @@ function startSite() {
 	   break;
 	   case 'file':
 	        openSiteinIframe('file');
+			 
 	   break;
 	 }
+	 loadJSON(function(response) {
+           // Parse JSON string into object
+           jsonlist = JSON.parse(response);
+           createMenu(jsonlist);
+        });
     } else {
         loadJSON(function(response) {
            // Parse JSON string into object
            jsonlist = JSON.parse(response);
            createList(jsonlist);
+           createMenu(jsonlist);
         });
    }
 }
