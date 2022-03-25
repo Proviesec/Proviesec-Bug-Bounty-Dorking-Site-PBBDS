@@ -28,7 +28,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] Open many URLs tabs (WordPress admin pages)
 - [ ] Select multi "or" for Google Dorking
 - [ ] Select multi "or" for Github Dorking
-- [ ] Iframe test site (Click hjacking)
+- [x] Iframe test site (Click hjacking)
 - [ ] Best dir Iframe search site - from provisec github account
 
 ## Nice To Have
