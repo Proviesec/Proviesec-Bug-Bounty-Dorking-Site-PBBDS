@@ -121,6 +121,9 @@ function startSite() {
            case 'dir':
 	        openSiteinIframe('dir');
 	   break;
+	   case 'file':
+	        openSiteinIframe('file');
+	   break;
 	 }
     } else {
         loadJSON(function(response) {
