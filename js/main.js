@@ -39,7 +39,6 @@ function createList(jsonlist) {
     // Make the list
     listElement = document.createElement('ul');
     listContainer.appendChild(listElement);
-    menuList = [];
   
     for (var i = 0; i < numberOfListItems; ++i) {
 	if (jsonlist[i]['start'] != 1){
@@ -51,9 +50,6 @@ function createList(jsonlist) {
         listItem.innerHTML = "<a class='after' href='"+jsonlist[i]['url']+"' onclick=\"replacePlaceholder('listitem"+i+"'); return false;\"  id=\"listitem"+i+"\" target=\"_blank\">"+jsonlist[i]['title']+"</a>";
         // Add listItem to the listElement
         listElement.appendChild(listItem);	
-	if(menuList.indexOf(jsonlist[i]['category']) === -1) {
-		menuList.push(jsonlist[i]['category']);
-	}
     }
     if(window.location.hash) {
 	changeList(jsonlist,window.location.hash.substring(1));
