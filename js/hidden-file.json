@@ -3,4 +3,8 @@
         "title": "Git file",
         "url": "/.git"
   }, 
+  {
+        "title": "Gitignore file",
+        "url": "/.gitignore"
+  }, 
 ]
