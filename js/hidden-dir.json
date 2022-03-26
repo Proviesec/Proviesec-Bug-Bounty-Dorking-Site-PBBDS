@@ -3,4 +3,8 @@
         "title": "Admin Dir",
         "url": "/admin"
   }, 
+  {
+        "title": "Git Dir",
+        "url": "/git"
+  }, 
 ]
