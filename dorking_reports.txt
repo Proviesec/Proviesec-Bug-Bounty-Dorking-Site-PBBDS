@@ -7,7 +7,9 @@ https://hackerone.com/reports/643274
 ## Github Dorks
 
 // Writeups //
+## Broken Links ##
 https://proviesec.medium.com/broken-link-hijacking-404-google-play-store-xxx-bounty-96e79a8dfd71
+## Google Dorks ##
 https://shahjerry33.medium.com/google-dorks-a-tracker-a59c7aad237f
 https://infosecwriteups.com/accessing-grofers-grafana-instance-using-shodan-52c585ada797
 https://medium.com/@hackrider/exploiting-devops-get-source-code-d4f5825eb373
