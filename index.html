@@ -27,17 +27,17 @@
         <div class="container" role="main">
             <article>
                 <h1>Provies Bug Bounty Dorking Site - PBBDS</h1>
-	        <div class="input-group">
+	        <div class="input-group control">
 		   <input value="" class="form-control" type="url" name="domain" id="domain" required="required" autocomplete="off" placeholder="www.victim.com">
 		   <label for="domain">Your Domain:</label>
 		   <div class="req-mark">!</div>
 	        </div>
-		   With subdomain: <input type="checkbox" id="myCheck" checked="checked" onclick="withoutSubdomain()">
+		<span class="control">  With subdomain: <input type="checkbox" id="myCheck" checked="checked" onclick="withoutSubdomain()"></span>
 	        <div id="reconlist">
 		</div>
 		<script type="text/javascript"> startSite(); </script>
             </article>
-	    <div class="search-group">
+	    <div class="search-group control">
 		<label for="search">Your Search:</label>
 	        <input value="" class="search-control" type="text" name="search" id="search" placeholder="Github dork">
 	    </div>
