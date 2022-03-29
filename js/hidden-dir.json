@@ -1,10 +1,10 @@
 [
   {
-        "title": "Admin Dir",
+        "title": "Admin Directory",
         "url": "/admin"
   }, 
   {
-        "title": "Git Dir",
+        "title": "Git Directory",
         "url": "/git"
   }, 
 ]
