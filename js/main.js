@@ -57,7 +57,6 @@ function createList(jsonlist) {
 }
 // Liste in the middle
 function changeList(jsonlist, category) {
-
     // Set up a loop that goes through the items in listItems one at a time
     numberOfListItems = jsonlist.length;
     var el = document.getElementById('reconlist').getElementsByTagName('ul')[0];
