@@ -130,7 +130,6 @@ function startSite() {
 	   break;
 	   case 'file':
 	        openSiteinIframe('file');
-			 
 	   break;
 	 }
 	 loadJSON(function(response) {
