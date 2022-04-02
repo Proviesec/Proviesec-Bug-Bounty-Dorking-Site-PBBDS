@@ -166,6 +166,10 @@ function findGetParameter(parameterName) {
     return result;
 }
 
+function ajaxFunctionTest() {
+	
+}
+
 // function to get the dorks from github repo
 function getDorksFromGithub() {
    var url_googledorksopenredirect = 'https://raw.githubusercontent.com/Proviesec/google-dorks/master/google-dorks-open-redirect.txt';
