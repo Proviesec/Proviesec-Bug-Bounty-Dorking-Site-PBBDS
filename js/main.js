@@ -167,7 +167,7 @@ function findGetParameter(parameterName) {
 }
 
 function ajaxFunctionTest() {
-	
+   var url = findGetParameter('url');
 }
 
 // function to get the dorks from github repo
