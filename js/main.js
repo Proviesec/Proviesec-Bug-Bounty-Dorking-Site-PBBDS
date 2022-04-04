@@ -168,6 +168,7 @@ function findGetParameter(parameterName) {
 
 function ajaxFunctionTest() {
    var url = findGetParameter('url');
+   var cors = false;	
 }
 
 // function to get the dorks from github repo
