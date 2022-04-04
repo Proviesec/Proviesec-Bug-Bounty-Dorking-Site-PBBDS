@@ -119,6 +119,12 @@ function createMenu(jsonlist) {
 
 // import the array which acts as a data source for the list
 function startSite() {
+	
+    var iframecontainer = document.getElementById('ifrm');
+    if (iframecontainer) {
+	    iframecontainer.remove();
+    }
+ 
     if(findGetParameter('mode')) {
          switch (findGetParameter('mode')) {
            case 'iframe':
