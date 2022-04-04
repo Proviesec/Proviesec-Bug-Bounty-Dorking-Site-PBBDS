@@ -168,7 +168,15 @@ function findGetParameter(parameterName) {
 
 function ajaxFunctionTest() {
    var url = findGetParameter('url');
-   var cors = false;	
+   var cors = false;
+   var xhttp = new XMLHttpRequest();
+   xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            console.log(this.responseText);
+	}
+     };
+   xhttp.open("POST", url, true);
+   xhttp.send()
 }
 
 // function to get the dorks from github repo
