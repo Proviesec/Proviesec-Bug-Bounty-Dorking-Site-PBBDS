@@ -122,7 +122,7 @@ function createMenu(jsonlist) {
 function startSite() {
 	
     var iframecontainer = document.getElementById('ifrm');
-    if (iframecontainer) {
+    if (iframecontainer !== null) {
 	    iframecontainer.remove();
     }
  
