@@ -117,15 +117,15 @@ function createMenu(jsonlist) {
         menuElement.appendChild(listItem);
     });
 }
-
-// import the array which acts as a data source for the list
-function startSite() {
-	
+function cleanIframe() {
     var iframecontainer = document.getElementById('ifrm');
     if (iframecontainer !== null) {
 	    iframecontainer.remove();
     }
- 
+}
+// import the array which acts as a data source for the list
+function startSite() {
+
     if(findGetParameter('mode')) {
          switch (findGetParameter('mode')) {
            case 'iframe':
