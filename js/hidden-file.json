@@ -11,4 +11,8 @@
         "title": "Gitconfig file",
         "url": "/.gitconfig"
   }, 
+  {
+        "title": "Git Credentials file",
+        "url": "/.git-credentials"
+  }, 
 ]
