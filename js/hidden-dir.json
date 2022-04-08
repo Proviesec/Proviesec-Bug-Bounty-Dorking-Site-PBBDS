@@ -10,5 +10,9 @@
   {
         "title": "private Directory",
         "url": "/private"
+  },
+  {
+        "title": "WP Admin",
+        "url": "/wp-admin/"
   }, 
 ]
