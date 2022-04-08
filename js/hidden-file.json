@@ -15,4 +15,8 @@
         "title": "Git Credentials file",
         "url": "/.git-credentials"
   }, 
+  {
+        "title": "PHP Info",
+        "url": "/phpinfo.php"
+  }, 
 ]
