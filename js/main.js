@@ -35,7 +35,9 @@ function createIframeList(openlist) {
         // Parse JSON string into object
         jsonlist = JSON.parse(response);
 	numberOfListItems = jsonlist.length;
-        createIframe();
+	for (var i = 0; i < numberOfListItems; ++i) {
+            createIframe();
+	}
     }, openlist);
 }
 
@@ -77,7 +79,7 @@ function changeList(jsonlist, category) {
     // Make the list
     listElement = document.createElement('ul');
     listContainer.appendChild(listElement);
-    console.log(category);
+
     for (var i = 0; i < numberOfListItems; ++i) {
 	if (encodeURI(jsonlist[i]['category']) != category && category != 'all'){
 	    continue;
