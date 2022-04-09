@@ -31,6 +31,10 @@ function createIframe() {
     ifrm.setAttribute('src', url);
 }
 
+function createIframeList() {
+    createIframe();
+}
+
 function createList(jsonlist) {
     // Set up a loop that goes through the items in listItems one at a time
     numberOfListItems = jsonlist.length;
@@ -118,12 +122,14 @@ function createMenu(jsonlist) {
         menuElement.appendChild(listItem);
     });
 }
+
 function cleanIframe() {
     var iframecontainer = document.getElementById('ifrm');
     if (iframecontainer !== null) {
 	    iframecontainer.remove();
     }
 }
+
 // import the array which acts as a data source for the list
 function startSite() {
 
