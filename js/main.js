@@ -34,6 +34,7 @@ function createIframeList(openlist) {
     loadJSON(function(response) {
         // Parse JSON string into object
         jsonlist = JSON.parse(response);
+	numberOfListItems = jsonlist.length;
         createIframe();
     }, openlist);
 }
