@@ -114,7 +114,7 @@ function createMenu(jsonlist) {
     menuElement.appendChild(listItem);
 	
     menuList.forEach(function (item) {
-		// create an item for each one
+	// create an item for each one
         const listItem = document.createElement('li');
         // Add the item text
         listItem.innerHTML = "<a href='#' id=\"menuitem"+item+"\" onclick=\"changeList(jsonlist,'"+encodeURI(item)+"')\">"+item+"</a>";
