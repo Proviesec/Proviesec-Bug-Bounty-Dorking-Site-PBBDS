@@ -32,7 +32,11 @@ function createIframe() {
 }
 
 function createIframeList() {
-    createIframe();
+    loadJSON(function(response) {
+        // Parse JSON string into object
+        jsonlist = JSON.parse(response);
+        createIframe();
+    }, 'reconlist.json');
 }
 
 function createList(jsonlist) {
@@ -149,7 +153,7 @@ function startSite() {
            // Parse JSON string into object
            jsonlist = JSON.parse(response);
            createMenu(jsonlist);
-        }, 'reconlist.json');
+         }, 'reconlist.json');
     } else {
         loadJSON(function(response) {
            // Parse JSON string into object
