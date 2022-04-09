@@ -22,8 +22,7 @@ function withoutSubdomain() {
     }
 }
 
-function createIframe() {
-    var url = findGetParameter('url');
+function createIframe(url) {
     var ifrm = document.createElement('iframe');
     ifrm.setAttribute('id', 'ifrm'); // assign an id
     var el = document.getElementById('reconlist');
@@ -140,7 +139,8 @@ function startSite() {
     if(findGetParameter('mode')) {
          switch (findGetParameter('mode')) {
            case 'iframe':
-		createIframe()
+		var url = findGetParameter('url');
+		createIframe(url);
 	   break;
            case 'dir':
 	        createIframeList('hidden-dir.json');
