@@ -19,4 +19,8 @@
         "title": "PHP Info",
         "url": "/phpinfo.php"
   }, 
+  {
+        "title": "Config file",
+        "url": "/config.xml"
+  }, 
 ]
