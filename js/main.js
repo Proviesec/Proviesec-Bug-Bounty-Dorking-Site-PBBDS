@@ -31,12 +31,12 @@ function createIframe() {
     ifrm.setAttribute('src', url);
 }
 
-function createIframeList() {
+function createIframeList(openlist) {
     loadJSON(function(response) {
         // Parse JSON string into object
         jsonlist = JSON.parse(response);
         createIframe();
-    }, 'reconlist.json');
+    }, openlist);
 }
 
 function createList(jsonlist) {
@@ -143,10 +143,10 @@ function startSite() {
 		createIframe()
 	   break;
            case 'dir':
-	        openSiteinIframe('dir');
+	        createIframeList('hidden-dir.json');
 	   break;
 	   case 'file':
-	        openSiteinIframe('file');
+	        createIframeList('file');
 	   break;
 	 }
 	 loadJSON(function(response) {
