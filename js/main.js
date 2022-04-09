@@ -1,6 +1,6 @@
 let withSubdomain = true;
 
-function loadJSON(callback) {   
+function loadJSON(callback,jsonlist) {   
     var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
     xobj.open('GET', 'js/reconlist.json', true); // Replace 'my_data' with the path to your file
