@@ -146,7 +146,7 @@ function startSite() {
 	        createIframeList('hidden-dir.json');
 	   break;
 	   case 'file':
-	        createIframeList('file');
+	        createIframeList('hidden-file.json');
 	   break;
 	 }
 	 loadJSON(function(response) {
