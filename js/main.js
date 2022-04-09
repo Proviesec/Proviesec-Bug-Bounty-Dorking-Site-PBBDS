@@ -75,9 +75,9 @@ function changeList(jsonlist, category) {
     listContainer.appendChild(listElement);
     console.log(category);
     for (var i = 0; i < numberOfListItems; ++i) {
-		if (encodeURI(jsonlist[i]['category']) != category && category != 'all'){
-			continue;
-		}
+	if (encodeURI(jsonlist[i]['category']) != category && category != 'all'){
+	    continue;
+	}
         // create an item for each one
         const listItem = document.createElement('li');
        
