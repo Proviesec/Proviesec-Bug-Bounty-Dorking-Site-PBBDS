@@ -36,7 +36,7 @@ function createIframeList(openlist) {
         jsonlist = JSON.parse(response);
 	numberOfListItems = jsonlist.length;
 	for (var i = 0; i < numberOfListItems; ++i) {
-            createIframe();
+            createIframe(jsonlist[i]['url']);
 	}
     }, openlist);
 }
