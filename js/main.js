@@ -13,15 +13,19 @@ function loadJSON(callback,jsonlist) {
     xobj.send(null);  
 }
 
-function isValidHttpUrl(string) {
+function validHttpUrl(string) {
     let url;
   
     try {
-       url = new URL(string);
+         url = new URL(string);
     } catch (_) {
-       return false;  
+         return false;  
     }
-    return url.protocol === "http:" || url.protocol === "https:";
+    if (url.protocol === "http:" || url.protocol === "https:") {
+	 return string;
+    } else {
+	 return "https://"+string;
+    }
 }
 
 function withoutSubdomain() {
