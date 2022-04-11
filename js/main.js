@@ -42,7 +42,7 @@ function createIframe(url) {
     ifrm.setAttribute('id', 'ifrm'); // assign an id
     var el = document.getElementById('reconlist');
     el.parentNode.insertBefore(ifrm, el);
-    ifrm.setAttribute('src', url);
+    ifrm.setAttribute('src', validHttpUrl(url));
 }
 
 function createIframeList(openlist) {
@@ -51,7 +51,7 @@ function createIframeList(openlist) {
         jsonlist = JSON.parse(response);
 	numberOfListItems = jsonlist.length;
 	for (var i = 0; i < numberOfListItems; ++i) {
-            createIframe(jsonlist[i]['url']);
+            createIframe(validHttpUrl(jsonlist[i]['url']));
 	}
     }, openlist);
 }
