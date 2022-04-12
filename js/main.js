@@ -14,14 +14,9 @@ function loadJSON(callback,jsonlist) {
 }
 
 function validHttpUrl(string) {
-    let url;
-  
-    try {
-         url = new URL(string);
-    } catch (_) {
-         return false;  
-    }
-    if (url.protocol === "http:" || url.protocol === "https:") {
+    var regexp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/
+    
+    if (regexp.test(string)) {
 	 return string;
     } else {
 	 return "https://"+string;
