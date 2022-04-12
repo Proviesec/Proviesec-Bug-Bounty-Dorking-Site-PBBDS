@@ -41,12 +41,13 @@ function createIframe(url) {
 }
 
 function createIframeList(openlist) {
+    var url = findGetParameter('url');
     loadJSON(function(response) {
         // Parse JSON string into object
         jsonlist = JSON.parse(response);
 	numberOfListItems = jsonlist.length;
 	for (var i = 0; i < numberOfListItems; ++i) {
-            createIframe(validHttpUrl(jsonlist[i]['url']));
+            createIframe(validHttpUrl(url+jsonlist[i]['url']));
 	}
     }, openlist);
 }
