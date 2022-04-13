@@ -38,6 +38,8 @@ function createIframe(url) {
     var el = document.getElementById('reconlist');
     el.parentNode.insertBefore(ifrm, el);
     ifrm.setAttribute('src', validHttpUrl(url));
+    ifrm.height = "400";
+    ifrm = "400";
 }
 
 function createIframeList(openlist) {
