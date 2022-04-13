@@ -143,10 +143,10 @@ function createMenu(jsonlist) {
 }
 
 function cleanIframe() {
-    var iframecontainer = document.getElementsByClassName('ifrm');
-    if (iframecontainer !== null) {
-	    iframecontainer.remove();
-    }
+    const boxes = Array.from(document.getElementsByClassName('ifrm'));
+    boxes.forEach(box => {
+        box.remove();
+    });
 }
 
 // import the array which acts as a data source for the list
