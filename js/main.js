@@ -34,7 +34,7 @@ function withoutSubdomain() {
 
 function createIframe(url) {
     var ifrm = document.createElement('iframe');
-    ifrm.setAttribute('id', 'ifrm'); // assign an id
+    ifrm.classList.add("ifrm");
     var el = document.getElementById('reconlist');
     el.parentNode.insertBefore(ifrm, el);
     ifrm.setAttribute('src', validHttpUrl(url));
@@ -141,7 +141,7 @@ function createMenu(jsonlist) {
 }
 
 function cleanIframe() {
-    var iframecontainer = document.getElementById('ifrm');
+    var iframecontainer = document.getElementsByClassName('ifrm');
     if (iframecontainer !== null) {
 	    iframecontainer.remove();
     }
