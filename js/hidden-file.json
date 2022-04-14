@@ -22,5 +22,9 @@
   {
         "title": "Config file",
         "url": "/config.xml"
+  }, 
+  {
+        "title": "Config file",
+        "url": "/config"
   }
 ]
