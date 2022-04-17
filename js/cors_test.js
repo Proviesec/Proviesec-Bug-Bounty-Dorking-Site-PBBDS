@@ -1,4 +1,5 @@
 function cors_test(test_url) {
+    let cors_data;
     if (test_url) {
         $.ajax ({
             url: test_url,
