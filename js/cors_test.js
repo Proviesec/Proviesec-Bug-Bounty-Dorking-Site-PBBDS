@@ -7,7 +7,7 @@ function cors_test(test_url) {
             }
         });
     } else {
-        console.log("No URL Data");
+        data = "No URL Data";
     }
     return data;
 }
