@@ -3,11 +3,11 @@ function cors_test(test_url) {
         $.ajax ({
             url: test_url,
             success: function(data) {
-                console.log(data);
+                cors_data = data;
             }
         });
     } else {
-        data = "No URL Data";
+        cors_data = "No URL Data";
     }
-    return data;
+    return cors_data;
 }
