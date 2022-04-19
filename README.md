@@ -38,6 +38,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] best tool Selector (Decision Tree)
 - [ ] Add todo list, Checklist editor, for small, large targets...
 - [ ] crlf search -> crlf payload -> github -> + Tutorial
+- [ ] Input for feature requests
 
 ## How It Works   
 Input your Domain, you don't have to click enter:
