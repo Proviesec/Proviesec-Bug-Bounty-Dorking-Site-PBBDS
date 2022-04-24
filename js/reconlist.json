@@ -237,6 +237,12 @@
         "url": "https://domain.glass/xxPBBDSxx"
     },
     {
+        "title": "PBBDS - Site load Google Dorkings from Github Repo",
+        "category": "Google Dorking",
+        "start": 1,
+        "url": "?mode=google-dorks&url=xxPBBDSxx"
+    },
+    {
         "title": "PBBDS Iframe Test",
         "category": "Website",
         "start": 1,
