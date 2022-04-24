@@ -153,23 +153,26 @@ function cleanIframe() {
 function startSite() {
 
     if(findGetParameter('mode')) {
-         switch (findGetParameter('mode')) {
-           case 'iframe':
-		var url = findGetParameter('url');
-		createIframe(url);
-	   break;
-           case 'dir':
-	        createIframeList('hidden-dir.json');
-	   break;
-	   case 'file':
-	        createIframeList('hidden-file.json');
-	   break;
-	 }
-	 loadJSON(function(response) {
+        switch (findGetParameter('mode')) {
+            case 'iframe':
+                var url = findGetParameter('url');
+                createIframe(url);
+            break;
+            case 'dir':
+                createIframeList('hidden-dir.json');
+            break;
+            case 'file':
+                createIframeList('hidden-file.json');
+            break;
+            case 'google-dorks':
+                getDorksFromGithub();
+            break;
+        }
+	loadJSON(function(response) {
            // Parse JSON string into object
            jsonlist = JSON.parse(response);
            createMenu(jsonlist);
-         }, 'reconlist.json');
+        }, 'reconlist.json');
     } else {
         loadJSON(function(response) {
            // Parse JSON string into object
