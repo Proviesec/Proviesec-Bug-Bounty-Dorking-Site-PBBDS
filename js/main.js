@@ -225,7 +225,6 @@ function getDorksFromGithub() {
 	  var obj = {"Google Dorking" : "", "category" : "Google Dorking", "start": 1,"subdomain": 1,"url": "https://www.google.com/search?q=site:xxPBBDSxx%20"+text}
           var s = JSON.stringify(obj)
 	  createList(s);
-	  return s;
        });
    });
 }
