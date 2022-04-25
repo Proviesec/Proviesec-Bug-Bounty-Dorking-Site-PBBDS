@@ -165,6 +165,9 @@ function startSite() {
             case 'file':
                 createIframeList('hidden-file.json');
             break;
+	    case 'tools':
+                createIframeList('tools.json');
+            break;
             case 'google-dorks':
                 getDorksFromGithub();
             break;
