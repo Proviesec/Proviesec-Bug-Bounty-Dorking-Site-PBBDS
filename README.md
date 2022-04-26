@@ -1,6 +1,7 @@
 # Provies Bug-Bounty-Dorking-Site (PBBDS)
 
-Licence 
+- Licence 
+
 <a href="https://provie.github.io/Provies-Bug-Bounty-Dorking-Site-PBBDS/"><strong>Explore the Site »</strong></a>
 For your Bug Bounty Recon (Mobile First :) ) 
 
