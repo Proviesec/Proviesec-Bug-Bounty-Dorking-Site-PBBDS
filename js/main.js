@@ -13,6 +13,9 @@ function loadJSON(callback,jsonlist) {
     xobj.send(null);  
 }
 
+function websiteSearch() {
+	
+}
 // Check the URL on https
 function validHttpUrl(string) {
     var regexp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/
