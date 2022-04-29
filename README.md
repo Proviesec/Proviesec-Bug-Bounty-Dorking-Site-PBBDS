@@ -25,7 +25,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [x] Payload lists from proviesec
 - [x] CORS Test
 - [x] Iframe test site (Click hjacking)
-- [ ] Search on the website (input field) 
+- [x] Search on the website (input field) 
 - [ ] ajax functions test / browser scan
 - [ ] Open many URLs tabs (WordPress admin pages)
 - [ ] Select multi "or" for Google Dorking
