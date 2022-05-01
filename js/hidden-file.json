@@ -20,11 +20,15 @@
         "url": "/phpinfo.php"
   }, 
   {
-        "title": "Config file",
+        "title": "Config file xml",
         "url": "/config.xml"
   }, 
   {
-        "title": "Config file",
+        "title": "Config file json",
         "url": "/config.json"
+  }, 
+  {
+        "title": "Config file txt",
+        "url": "/config.txt"
   }
 ]
