@@ -16,6 +16,7 @@ function loadJSON(callback,jsonlist) {
 function websiteSearch() {
     var el = document.getElementById('search');
     if (el) {
+        // search the site 
     }
 }
 // Check the URL on https
