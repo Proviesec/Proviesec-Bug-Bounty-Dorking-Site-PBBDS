@@ -14,5 +14,9 @@
   {
         "title": "WP Admin",
         "url": "/wp-admin"
+  },
+  {
+        "title": "PHPMyAdmin",
+        "url": "/phpMyAdmin"
   }
 ]
