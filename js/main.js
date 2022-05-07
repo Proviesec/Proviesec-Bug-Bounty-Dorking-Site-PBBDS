@@ -15,9 +15,15 @@ function loadJSON(callback,jsonlist) {
 
 function websiteSearch() {
     let search_query = document.getElementById('search');
-	
-    if (search_query ) {
-        // search the site 
+    let list_elements = document.querySelectorAll('.box')	
+    if (search_query) {
+       for (var i = 0; i < cards.length; i++) {
+	   if(list_elements[i].textContent.toLowerCase().includes(search_query.toLowerCase())) {
+	      list_elements[i].classList.remove("is-hidden");
+	   } else {
+              list_elements[i].classList.add("is-hidden");
+           }
+       }
     }
 }
 // Check the URL on https
