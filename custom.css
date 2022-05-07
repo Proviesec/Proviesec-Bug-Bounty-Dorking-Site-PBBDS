@@ -216,3 +216,4 @@ p {
   color: #e0e0e0;
   font-family: "Ubuntu", sans-serif;
 }
+.is-hidden { display: none; }
