@@ -14,9 +14,9 @@ function loadJSON(callback,jsonlist) {
 }
 
 function websiteSearch() {
-    let el = document.getElementById('search');
+    let search_query = document.getElementById('search');
 	
-    if (el) {
+    if (search_query ) {
         // search the site 
     }
 }
