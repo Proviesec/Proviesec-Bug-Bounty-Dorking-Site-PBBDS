@@ -15,6 +15,7 @@ function loadJSON(callback,jsonlist) {
 
 function websiteSearch() {
     let el = document.getElementById('search');
+	
     if (el) {
         // search the site 
     }
