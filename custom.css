@@ -195,13 +195,13 @@ p {
   cursor: text;
 }
 .social-link {
-	color: #ffffff;
+  color: #ffffff;
 }
 .input-group input:focus + label,
 .input-group input:not(:placeholder-shown) + label {
-  bottom: 20px;
-  font-size: 13px;
-  opacity: 0.7;
+   bottom: 20px;
+   font-size: 13px;
+   opacity: 0.7;
 }
 .req-mark {
   position: absolute;
