@@ -37,6 +37,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] Load the payload lists from proviesec
 - [ ] best tool Selector (Decision Tree)
   - [ ] question and what todo 
+  - [ ] best solution ideas
 - [ ] Add todo list, Checklist editor, for small, large targets...
 - [ ] crlf search -> crlf payload -> github -> + Tutorial
 - [ ] Input for feature requests
