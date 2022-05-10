@@ -15,8 +15,7 @@ function loadJSON(callback,jsonlist) {
 
 function websiteSearch() {
     let search_query = document.getElementById('search');
-    let list_elements = document.querySelectorAll('.box')	
-    
+    let list_elements = document.querySelectorAll('.box');	
     if (search_query) {
        for (var i = 0; i < cards.length; i++) {
 	   if(list_elements[i].textContent.toLowerCase().includes(search_query.toLowerCase())) {
