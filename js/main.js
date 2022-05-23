@@ -199,8 +199,10 @@ function startSite() {
            createMenu(jsonlist);
         }, 'reconlist.json');
     }
+    if('' != url) {
     var inputDomain = document.getElementById("domain");
     inputDomain.setAttribute('value', url);
+    }
 }
 
 function replacePlaceholder(listid) {
