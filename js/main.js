@@ -198,7 +198,8 @@ function startSite() {
            createList(jsonlist);
            createMenu(jsonlist);
         }, 'reconlist.json');
-   }
+    }
+    var inputDomain = document.getElementById("domain");
 }
 
 function replacePlaceholder(listid) {
