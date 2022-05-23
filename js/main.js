@@ -166,7 +166,7 @@ function cleanIframe() {
 
 // import the array which acts as a data source for the list
 function startSite() {
-
+    var url = findGetParameter('url');
     if(findGetParameter('mode')) {
         switch (findGetParameter('mode')) {
             case 'iframe':
