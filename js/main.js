@@ -250,7 +250,6 @@ function getDorksFromGithub() {
    });
 }
 
-
 function searchBar() {
    //A little delay
    let typingTimer;               
