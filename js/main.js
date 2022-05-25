@@ -52,7 +52,7 @@ function createIframe(url) {
     ifrm.classList.add("ifrm");
     var el = document.getElementById('reconlist');
     el.appendChild(ifrm, el);
-    ifrm.setAttribute('src', validHttpUrl(url));
+    ifrm.setAttribute('src', validAndSetHttpSUrl(url));
     ifrm.height = "400";
     ifrm = "400";
 }
@@ -64,7 +64,7 @@ function createIframeList(openlist) {
         jsonlist = JSON.parse(response);
 	numberOfListItems = jsonlist.length;
 	for (var i = 0; i < numberOfListItems; ++i) {
-            createIframe(validHttpUrl(url+jsonlist[i]['url']));
+            createIframe(validAndSetHttpSUrl(url+jsonlist[i]['url']));
 	}
     }, openlist);
 }
