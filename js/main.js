@@ -51,7 +51,7 @@ function createIframe(url) {
     var ifrm = document.createElement('iframe');
     ifrm.classList.add("ifrm");
     var el = document.getElementById('reconlist');
-    el.parentNode.insertBefore(ifrm, el);
+    el.appendChild(ifrm, el);
     ifrm.setAttribute('src', validHttpUrl(url));
     ifrm.height = "400";
     ifrm = "400";
