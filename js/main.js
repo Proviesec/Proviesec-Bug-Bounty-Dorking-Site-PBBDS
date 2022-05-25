@@ -261,3 +261,4 @@ function searchBar() {
       typingTimer = setTimeout(liveSearch, typeInterval);
    });
 }
+
