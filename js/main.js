@@ -199,7 +199,7 @@ function startSite() {
            createMenu(jsonlist);
         }, 'reconlist.json');
     }
-    if('' != url) {
+    if(url) {
        var inputDomain = document.getElementById("domain");
        inputDomain.setAttribute('value', url);
     }
