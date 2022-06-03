@@ -29,7 +29,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [x] Iframe test site (Click hjacking)
 - [x] Search on the website (input field) 
 - [ ] ajax functions test / browser scan
-- [ ] Open many URLs tabs (WordPress admin pages)
+- [x] Open many URLs tabs (WordPress admin pages)
 - [ ] Select multi "or" for Google Dorking
 - [ ] Select multi "or" for Github Dorking
 - [ ] Best dir Iframe search site - from provisec github account
