@@ -32,8 +32,10 @@ function validAndSetHttpSUrl(string) {
     var regexp = /(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/
     
     if (regexp.test(string)) {
+	    
 	 return string;
     } else {
+	    
 	 return "https://"+string;
     }
 }
