@@ -10,5 +10,6 @@ function cors_test(test_url) {
     } else {
         cors_data = "No URL Data";
     }
+    
     return cors_data;
 }
