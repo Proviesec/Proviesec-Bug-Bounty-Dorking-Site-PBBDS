@@ -22,5 +22,10 @@
   {
         "title": "Backup Directory",
         "url": "/backup"
+  }, 
+  {
+        "title": "static-files Directory",
+        "url": "/static-files/"
   } 
+  
 ]
