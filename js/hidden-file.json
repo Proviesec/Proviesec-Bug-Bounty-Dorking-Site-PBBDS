@@ -38,7 +38,11 @@
   {
         "title": "Backup Zip", 
         "url": "/backup.zip" 
-  } 
+  },
+  { 
+        "title": "Backup Zip", 
+        "url": "/backup.zip" 
+  }
   readme.md
 
 ]
