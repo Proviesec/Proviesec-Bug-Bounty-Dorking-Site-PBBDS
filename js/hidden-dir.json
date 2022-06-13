@@ -24,6 +24,10 @@
         "url": "/backup"
   }, 
   {
+        "title": "Config Directory",
+        "url": "/config"
+  }, 
+  {
         "title": "static-files Directory",
         "url": "/static-files/"
   } 
