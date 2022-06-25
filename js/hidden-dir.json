@@ -30,5 +30,9 @@
   {
         "title": "static-files Directory",
         "url": "/static-files/"
-  } 
+  }, 
+  {
+        "title": "static Directory",
+        "url": "/static/"
+  }
 ]
