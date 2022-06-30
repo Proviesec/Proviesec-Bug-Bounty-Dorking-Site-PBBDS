@@ -50,6 +50,7 @@ function withoutSubdomain() {
 }
 
 function createIframe(url) {
+    // generate URL 
     var ifrm = document.createElement('iframe');
     ifrm.classList.add("ifrm");
     var el = document.getElementById('reconlist');
