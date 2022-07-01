@@ -50,7 +50,6 @@ function withoutSubdomain() {
 }
 
 function createIframe(url) {
-    // generate URL 
     var ifrm = document.createElement('iframe');
     ifrm.classList.add("ifrm");
     var el = document.getElementById('reconlist');
@@ -61,7 +60,7 @@ function createIframe(url) {
 }
 
 function createIframeList(openlist) {
-    // generate URL List
+    // createList(openList)
     var url = findGetParameter('url');
     loadJSON(function(response) {
         // Parse JSON string into object
