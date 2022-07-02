@@ -60,8 +60,13 @@ function createIframe(url) {
 }
 
 function createIframeList(openlist) {
-    // createList(openList)
+
     var url = findGetParameter('url');
+    
+    // Make the list
+    listElement = document.createElement('ul');
+    listContainer.appendChild(listElement);
+	
     loadJSON(function(response) {
         // Parse JSON string into object
         jsonlist = JSON.parse(response);
