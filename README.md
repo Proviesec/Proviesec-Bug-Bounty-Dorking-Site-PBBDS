@@ -1,6 +1,6 @@
 # Provies Bug-Bounty-Dorking-Site (PBBDS)
 
-For your Bug Bounty Recon (Mobile First) 
+The Website for your Bug Bounty Recon (Mobile First) 
 <h2><a href="https://provie.github.io/Provies-Bug-Bounty-Dorking-Site-PBBDS/"><strong>Explore the Site »</strong></a></h2>
 <a href="https://provie.github.io/Provies-Bug-Bounty-Dorking-Site-PBBDS/">https://provie.github.io/Provies-Bug-Bounty-Dorking-Site-PBBDS</a>
 <br>
