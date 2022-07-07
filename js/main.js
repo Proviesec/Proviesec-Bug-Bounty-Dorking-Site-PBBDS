@@ -67,6 +67,9 @@ function createIframeList(openlist) {
     listElement = document.createElement('ul');
     listContainer.appendChild(listElement);
 	
+    // create an item for each one
+    const listItem = document.createElement('li');
+  
     loadJSON(function(response) {
         // Parse JSON string into object
         jsonlist = JSON.parse(response);
