@@ -37,6 +37,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 
 ## Nice To Have
 - [ ] xss configuration (jquery....)
+  - [ ] show you the best xss in your case 
 - [ ] Load the payload lists from proviesec
 - [ ] best tool Selector (Decision Tree)
   - [ ] question and what todo 
