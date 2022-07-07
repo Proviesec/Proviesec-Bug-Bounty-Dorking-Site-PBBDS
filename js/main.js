@@ -76,6 +76,10 @@ function createIframeList(openlist) {
 	numberOfListItems = jsonlist.length;
 	for (var i = 0; i < numberOfListItems; ++i) {
             createIframe(validAndSetHttpSUrl(url+jsonlist[i]['url']));
+           // Add the item text
+        listItem.innerHTML = "<a class='after' href='"+jsonlist[i]['url']+"' onclick=\"replacePlaceholder('listitem"+i+"'); return false;\"  id=\"listitem"+i+"\" target=\"_blank\">"+jsonlist[i]['title']+"</a>";
+        // Add listItem to the listElement
+        // listElement.appendChild(listItem);
 	}
     }, openlist);
 }
