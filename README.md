@@ -36,7 +36,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec
 - [ ] Link List on iFrame sites
 
 ## Nice To Have
-- [ ] xss configuration (jquery....)
+- [ ] xss configuration (jquery, which input field....)
   - [ ] show you the best xss in your case 
 - [ ] Load the payload lists from proviesec
 - [ ] best tool Selector (Decision Tree)
