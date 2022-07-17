@@ -13,7 +13,7 @@ The Website for your Bug Bounty Recon (Mobile First)
 </a>
 
 ## What is still missing? 
-Just write or follow me on Twitter: https://twitter.com/proviesec
+Just write or follow me on Twitter: https://twitter.com/proviesec or write your idea in the Issues area
 
 ## ToDo
 - [x] Dynamic json file for li list
