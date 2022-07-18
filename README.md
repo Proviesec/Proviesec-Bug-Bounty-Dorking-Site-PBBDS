@@ -35,6 +35,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec or write your 
 - [ ] Select multi "or" for Github Dorking
 - [ ] Best dir Iframe search site - from provisec github account
 - [ ] Link List on iFrame sites - new target
+- [ ] open redirect test 
 
 ## Nice To Have
 - [ ] xss configuration (jquery, which input field....)
