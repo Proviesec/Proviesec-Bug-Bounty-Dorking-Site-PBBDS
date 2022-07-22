@@ -46,7 +46,6 @@ Just write or follow me on Twitter: https://twitter.com/proviesec or write your 
   - [ ] best solution ideas
 - [ ] Add todo list, Checklist editor, for small, large targets...
 - [ ] crlf search -> crlf payload -> github -> + Tutorial
-- [ ] Input for feature requests
 - [ ] js dir scanner 
 
 ## How It Works   
