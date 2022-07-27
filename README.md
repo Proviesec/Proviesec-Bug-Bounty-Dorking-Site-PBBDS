@@ -30,6 +30,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec or write your 
 - [x] Iframe test site (Click hjacking)
 - [x] Search on the website (input field) 
 - [ ] GitHub company employee search 
+- [ ] Tips for GitHub Search 
 - [ ] ajax functions test / browser scan
 - [x] Open many URLs tabs (WordPress admin pages)
 - [ ] Select multi "or" for Google Dorking
