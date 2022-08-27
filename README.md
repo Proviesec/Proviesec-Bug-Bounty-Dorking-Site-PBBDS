@@ -47,6 +47,8 @@ Just write or follow me on Twitter: https://twitter.com/proviesec or write your 
 - [ ] Add todo list, Checklist editor, for small, large targets...
 - [ ] crlf search -> crlf payload -> github -> + Tutorial
 - [ ] js dir scanner 
+- [ ] js subdomain scanner 
+
 
 ## How It Works   
 Input your Domain, you don't have to click enter:
