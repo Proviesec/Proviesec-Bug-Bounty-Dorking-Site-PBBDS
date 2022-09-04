@@ -37,6 +37,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec or write your 
 - [ ] Link List on iFrame sites - new target
 - [ ] open redirect test 
 
+
 ## Nice To Have
 - [ ] xss configuration (jquery, which input field....)
   - [ ] show you the best xss in your case 
