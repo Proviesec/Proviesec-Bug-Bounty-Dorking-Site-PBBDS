@@ -38,6 +38,7 @@ Just write or follow me on Twitter: https://twitter.com/proviesec or write your 
 - [ ] open redirect test 
 
 
+
 ## Nice To Have
 - [ ] xss configuration (jquery, which input field....)
   - [ ] show you the best xss in your case 
